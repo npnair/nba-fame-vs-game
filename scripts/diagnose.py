@@ -66,11 +66,28 @@ def gdelt():
     return f"{n} articles ({time.time() - t:.1f}s for one request)"
 
 
+def google_news(window):
+    from fame.http import get
+    import re
+    import urllib.parse
+    q = urllib.parse.quote(f'"LeBron James" NBA when:{window}')
+    t = time.time()
+    body = get(f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en").decode("utf-8", "replace")
+    items = len(re.findall(r"<item>", body))
+    return lambda: f"{items} items for when:{window} ({time.time() - t:.1f}s)"
+
+
 if __name__ == "__main__":
+    for w in ("1d", "7d"):
+        try:
+            check(f"Google News RSS {w}", google_news(w))
+        except Exception as e:  # noqa: BLE001
+            say(f"Google News RSS {w}: FAILED -> {type(e).__name__}: {str(e)[:300]}")
+    check("Google News second player", google_news("1d"))
     check("Basketball-Reference", bref_sample)
     check("Wikidata P2685 count", wikidata_count)
     check("Wikidata LeBron/Jokic by ID", wikidata_lebron)
     check("Wikidata LeBron's P2685 value", wikidata_sample_values)
     check("Wikidata module fetch", wikidata_module)
     check("Wikipedia page views", pageviews)
-    check("GDELT news", gdelt)
+    pass  # GDELT blocks GitHub runners (HTTP 429)
