@@ -1,0 +1,37 @@
+name: fame_vs_game
+version: "1.0.0"
+config-version: 2
+profile: fame_vs_game
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+vars:
+  # Players who qualify for the production percentiles
+  prev_season: 2026
+  cur_season: 2027
+  prev_min_minutes: 1000
+  cur_min_minutes: 150
+  # 2026-27 minutes at which this season counts half (earlier seasons fade out as it grows)
+  blend_half_minutes: 1000
+  # How much each signal counts toward the fame score (renormalized when a signal is missing)
+  fame_weights:
+    pageviews: 0.30
+    news: 0.25
+    instagram: 0.20
+    tiktok: 0.15
+    media: 0.10
+  # Production minus fame (in percentile points) needed to call someone under- or overrated
+  verdict_threshold: 25
+
+models:
+  fame_vs_game:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table

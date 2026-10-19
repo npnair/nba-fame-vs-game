@@ -1,0 +1,68 @@
+name: refresh
+
+# Every morning: pull every source, rebuild the dbt models, test, commit the new data and publish the page.
+on:
+  schedule:
+    - cron: "43 13 * * *"   # 13:43 UTC = 6:43 AM Pacific (5:43 AM in winter)
+  workflow_dispatch:
+    inputs:
+      skip_news:
+        description: "Skip the news counts (about 25 minutes faster)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Extract sources and build models
+        run: python scripts/refresh.py ${{ inputs.skip_news && '--skip-news' || '' }}
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Commit new data
+        run: |
+          if [ -z "$(git status --porcelain raw data docs/data results)" ]; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw data docs/data results
+          git commit -m "Refresh data for $(TZ=America/Los_Angeles date +'%b %-d, %Y')"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

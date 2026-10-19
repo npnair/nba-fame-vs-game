@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: fct_fame_vs_game
+    description: >
+      One row per player in the pool. production_score and fame_score are percentiles (0-100)
+      within the pool; gap = production minus fame. Positive gaps are underrated players.
+    columns:
+      - name: bref_id
+        description: Basketball-Reference player ID
+        data_tests: [unique, not_null]
+      - name: player_name
+        data_tests: [not_null]
+      - name: production_score
+        data_tests: [not_null]
+      - name: fame_score
+        data_tests: [not_null]
+      - name: quadrant
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Stars", "Hype", "Hidden gems", "Under the radar"]
+      - name: verdict
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Underrated", "Overrated", "Fairly rated"]
+      - name: fame_signals_used
+        description: How many of the five fame signals were available for this player

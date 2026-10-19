@@ -1,0 +1,29 @@
+version: 2
+
+# Every source is a CSV that scripts/refresh.py writes. Reading them as text and casting in the
+# staging models keeps a stray value from breaking the whole build.
+sources:
+  - name: raw
+    meta:
+      external_location: "read_csv('raw/{name}.csv', header = true, all_varchar = true)"
+    tables:
+      - name: bref_advanced_2026
+        description: 2025-26 advanced stats from Basketball-Reference, one row per player
+      - name: bref_advanced_2027
+        description: 2026-27 advanced stats, refreshed daily (empty before opening night)
+      - name: pool
+        description: Players included in the chart
+      - name: registry
+        description: Wikidata match per player (Wikipedia title, social handles, film and TV credits)
+      - name: pageviews_daily
+        description: Daily English Wikipedia page views per player
+      - name: news_counts
+        description: News articles mentioning each player in the 30 days before as_of (GDELT)
+
+  - name: manual
+    description: Typed by hand from public profiles
+    meta:
+      external_location: "read_csv('data/{name}.csv', header = true, all_varchar = true)"
+    tables:
+      - name: social_followers
+        description: Instagram and TikTok follower counts, updated monthly

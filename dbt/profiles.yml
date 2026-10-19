@@ -1,0 +1,7 @@
+fame_vs_game:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: warehouse.duckdb   # relative to the folder dbt runs from (the repo root)
+      threads: 4

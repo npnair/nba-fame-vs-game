@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fame vs Game</title>
+  <meta name="description" content="Is an NBA player's fame earned by how they play? Wikipedia traffic, news coverage, Instagram, TikTok and screen credits plotted against on-court production.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <p class="kicker">NBA 2026–27 · updated daily</p>
+      <h1>Fame <span class="vs">vs</span> Game</h1>
+      <p class="lede">Is a player's fame earned on the court? Each dot is an NBA player: how well they play across the bottom, how famous they are up the side. Players above the diagonal get more attention than their play earns. Players below it deserve more.</p>
+    </div>
+    <dl class="facts" id="facts"></dl>
+  </header>
+
+  <section class="stage">
+    <div class="chart-card">
+      <div class="toolbar">
+        <div class="field grow"><label for="search">Find a player</label><input id="search" type="search" placeholder="e.g. Jokic" autocomplete="off"></div>
+        <div class="field"><label for="team">Team</label><select id="team"><option value="">All teams</option></select></div>
+        <fieldset class="chips" id="verdicts"><legend>Show</legend>
+          <label><input type="checkbox" value="Underrated" checked><span class="chip under">Underrated</span></label>
+          <label><input type="checkbox" value="Fairly rated" checked><span class="chip fair">Fairly rated</span></label>
+          <label><input type="checkbox" value="Overrated" checked><span class="chip over">Overrated</span></label>
+        </fieldset>
+      </div>
+      <div class="chart" id="chart" aria-label="Scatter plot of player fame against production"></div>
+      <p class="note" id="chartNote"></p>
+    </div>
+
+    <aside class="detail" id="detail" aria-live="polite"></aside>
+  </section>
+
+  <section class="lists">
+    <div class="list-card"><h2>Most underrated</h2><p class="sub">Play far better than their fame suggests</p><ol id="underList"></ol></div>
+    <div class="list-card"><h2>Most overrated</h2><p class="sub">More famous than their play right now</p><ol id="overList"></ol></div>
+  </section>
+
+  <section class="panel">
+    <details>
+      <summary>Weight the fame signals yourself</summary>
+      <p class="hint">Fame is a weighted blend of five signals, each ranked against the rest of the league. Drag a slider to change how much it counts. The chart updates instantly. A player missing a signal is scored on the ones they have.</p>
+      <div class="weights" id="weights"></div>
+      <button type="button" id="resetWeights" class="ghost">Reset to default weights</button>
+    </details>
+  </section>
+
+  <section class="panel method">
+    <h2>How it works</h2>
+    <div class="cols">
+      <div><h3>Game</h3><p>On-court value from Basketball-Reference: half VORP (total value, which rewards playing time) and half BPM (value per possession), ranked within each season. Last season carries the score early on, and 2026–27 takes over as minutes pile up.</p></div>
+      <div><h3>Fame</h3><p>Five signals, each turned into a percentile: English Wikipedia page views over the last 30 days, news articles mentioning the player in the last 30 days (GDELT), Instagram and TikTok followers, and film and TV credits (Wikidata).</p></div>
+      <div><h3>Verdict</h3><p>Both scores are percentiles from 0 to 100. A player whose game outranks their fame by 25 points or more is underrated, and the reverse is overrated. Quadrants split at 50.</p></div>
+      <div><h3>Pipeline</h3><p>A GitHub Actions job pulls every source each morning, a dbt project on DuckDB cleans and models the data, and tests check it before this page updates. Follower counts are entered by hand monthly from public profiles.</p></div>
+    </div>
+    <p class="src">Sources: <a href="https://www.basketball-reference.com/" target="_blank" rel="noopener">Basketball-Reference</a>, <a href="https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews" target="_blank" rel="noopener">Wikimedia page views</a>, <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener">GDELT</a>, <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a>, public Instagram and TikTok profiles. Code on <a href="https://github.com/npnair/nba-fame-vs-game" target="_blank" rel="noopener">GitHub</a>.</p>
+  </section>
+</div>
+
+<div class="tip" id="tip" role="tooltip" hidden></div>
+
+<script src="data/fame.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

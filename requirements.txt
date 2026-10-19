@@ -1,0 +1,6 @@
+duckdb>=1.2
+dbt-core>=1.10,<1.13
+dbt-duckdb>=1.10,<1.12
+pandas>=2.2
+lxml>=5.0
+pytest>=8.0
