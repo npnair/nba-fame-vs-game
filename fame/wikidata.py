@@ -27,15 +27,20 @@ GROUP BY ?bref ?item
 # P161 = cast member of a film or TV production, P725 = voice actor
 
 
+def wikidata_value(bref_id: str) -> str:
+    """Wikidata stores the ID with its folder letter: jamesle01 -> j/jamesle01."""
+    return f"{bref_id[0]}/{bref_id}"
+
+
 def build_query(bref_ids: list[str]) -> str:
-    values = " ".join(f'"{b}"' for b in sorted(set(bref_ids)) if b.isalnum())
+    values = " ".join(f'"{wikidata_value(b)}"' for b in sorted(set(bref_ids)) if b.isalnum())
     return QUERY % values
 
 
 def parse(payload: dict) -> list[dict]:
     rows = {}
     for b in payload["results"]["bindings"]:
-        bref = b["bref"]["value"]
+        bref = b["bref"]["value"].rsplit("/", 1)[-1]
         article = b.get("article", {}).get("value", "")
         title = urllib.parse.unquote(article.rsplit("/", 1)[-1]) if article else ""
         row = {

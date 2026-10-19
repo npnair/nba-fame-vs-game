@@ -60,11 +60,6 @@ def pageviews():
     return f"{sum(v for _, v in wikipedia.fetch_daily('LeBron_James', end - timedelta(days=29), end))} views in 30 days"
 
 
-def gdelt():
-    t = time.time()
-    n = news.article_count(news.default_query("LeBron James"))
-    return f"{n} articles ({time.time() - t:.1f}s for one request)"
-
 
 def google_news(window):
     from fame.http import get
@@ -90,4 +85,3 @@ if __name__ == "__main__":
     check("Wikidata LeBron's P2685 value", wikidata_sample_values)
     check("Wikidata module fetch", wikidata_module)
     check("Wikipedia page views", pageviews)
-    pass  # GDELT blocks GitHub runners (HTTP 429)

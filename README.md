@@ -15,7 +15,7 @@ The data refreshes every morning through an automated pipeline: Python extracts 
 | Signal | Source | Weight | Refresh |
 |---|---|---|---|
 | Wikipedia page views, last 30 days | Wikimedia REST API | 30% | Daily |
-| News articles mentioning the player, last 30 days | GDELT DOC 2.0 API | 25% | Daily |
+| News articles mentioning the player, last 30 days | Google News RSS search, counted daily | 25% | Daily |
 | Instagram followers | Public profiles, entered by hand | 20% | Monthly |
 | TikTok followers | Public profiles, entered by hand | 15% | Monthly |
 | Film and TV credits | Wikidata (cast member or voice actor) | 10% | Daily |
@@ -32,14 +32,14 @@ On the live page you can drag sliders to reweight the fame signals and watch pla
 Basketball-Reference ─┐
 Wikidata ─────────────┤                       ┌── stg_* (clean, type, dedupe)
 Wikipedia page views ─┼─► scripts/refresh.py ─► raw/*.csv ─► dbt (DuckDB) ─┼── int_production, int_fame_signals
-GDELT news ───────────┤                       └── fct_fame_vs_game (+ tests)
+Google News RSS ──────┤                       └── fct_fame_vs_game (+ tests)
 social_followers.csv ─┘                                                 │
                                                                         ▼
                                           scripts/export.py ─► docs/data/fame.js (web page)
                                                              └► results/*.csv (latest + daily history)
 ```
 
-- **Extract** (`fame/`, `scripts/refresh.py`): one module per source. Wikidata maps each Basketball-Reference player ID to their Wikipedia article and social handles in a single SPARQL query. News queries add "NBA OR basketball" so that common names don't match unrelated people.
+- **Extract** (`fame/`, `scripts/refresh.py`): one module per source. Wikidata maps each Basketball-Reference player ID to their Wikipedia article and social handles in a single SPARQL query. News queries add "NBA OR basketball" so that common names don't match unrelated people. Google News feeds cap at 100 items, so the pipeline counts one day at a time and sums the last 30 days, which keeps nearly every player under the cap. (GDELT was the original news source, but it rejects requests from GitHub's shared servers.)
 - **Fail safe:** each source runs independently. If one fails, its last saved data stays in place, the run logs a warning, and the chart still updates from everything else.
 - **Transform** (`dbt/`): staging models cast and clean the raw CSVs, intermediate models compute production and per-signal percentiles, and the `fct_fame_vs_game` mart combines them. Weights and thresholds live in `dbt_project.yml` vars.
 - **Test:** dbt tests check uniqueness, nulls, allowed values, score ranges and signal coverage on every run. `pytest` checks the source parsers and builds the full dbt project against synthetic data, so the SQL is verified on every push without any network calls.
@@ -59,7 +59,7 @@ python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\act
 pip install -r requirements.txt
 
 python scripts/refresh.py --skip-news   # pull data and build (a few minutes)
-python scripts/refresh.py               # full run including news (about 30 minutes, rate-limited API)
+python scripts/refresh.py               # full run including news (about 10 minutes)
 python scripts/refresh.py --models-only # rebuild models from saved raw data only
 pytest                                  # tests
 python -m http.server -d docs           # view the page at http://localhost:8000
@@ -84,12 +84,13 @@ tests/                parser tests and an offline dbt build test
 ## Limitations
 
 - Page views and news coverage spike with injuries, trades and controversies, not only good play. A 30-day window smooths that but doesn't remove it.
+- News counts started on Oct 20, 2026, so the 30-day news window fills in over the first month.
 - Follower counts are entered by hand, so they're only as fresh as the last monthly update.
 - Production uses box-score metrics (BPM, VORP), which underrate elite defenders who don't fill the box score.
 - Players change teams in the offseason, but their team label updates only once they play for the new team.
 
 ## Data sources and terms
 
-[Basketball-Reference](https://www.basketball-reference.com/) (one or two requests a day, within its published rate limits), [Wikimedia page views API](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews), [GDELT](https://www.gdeltproject.org/), [Wikidata](https://www.wikidata.org/) (CC0). Instagram and TikTok counts are read manually from public profiles. Nothing is scraped from either platform.
+[Basketball-Reference](https://www.basketball-reference.com/) (one or two requests a day, within its published rate limits), [Wikimedia page views API](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews), Google News RSS search feeds (about 280 requests a day, one per second), [Wikidata](https://www.wikidata.org/) (CC0). Instagram and TikTok counts are read manually from public profiles. Nothing is scraped from either platform.
 
 MIT license. Not affiliated with the NBA or any team.

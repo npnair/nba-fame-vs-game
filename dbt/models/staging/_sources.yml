@@ -17,8 +17,8 @@ sources:
         description: Wikidata match per player (Wikipedia title, social handles, film and TV credits)
       - name: pageviews_daily
         description: Daily English Wikipedia page views per player
-      - name: news_counts
-        description: News articles mentioning each player in the 30 days before as_of (GDELT)
+      - name: news_daily
+        description: Google News articles mentioning each player, counted one day at a time
 
   - name: manual
     description: Typed by hand from public profiles

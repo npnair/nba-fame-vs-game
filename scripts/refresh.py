@@ -1,7 +1,7 @@
 """Daily pipeline: extract every source into raw/, then build the dbt models and export the results.
 
-    python scripts/refresh.py                 # full run (about 30 minutes, mostly the news API's rate limit)
-    python scripts/refresh.py --skip-news     # everything except news counts (a few minutes)
+    python scripts/refresh.py                 # full run (about 10 minutes)
+    python scripts/refresh.py --skip-news     # everything except news counts
     python scripts/refresh.py --models-only   # rebuild dbt models and exports from the raw files already saved
 
 A source that fails keeps its last saved data, and the run reports it at the end, so one flaky
@@ -120,12 +120,18 @@ def extract_news(stats: pd.DataFrame, pool: list[str]) -> None:
                 queries[o.bref_id] = o.news_query
     counts, failed = news.fetch_all(queries)
     if failed:
-        note(f"News counts failed for {len(failed)} players (they keep their last count)", error=True)
+        note(f"News counts failed for {len(failed)} players (that day is skipped for them)", error=True)
+    capped = [b for b, n in counts.items() if n >= news.FEED_CAP]
+    if capped:
+        note(f"{len(capped)} players hit the feed's 100-article cap today: {', '.join(capped[:8])}")
     today = date.today().isoformat()
-    new = pd.DataFrame([{"as_of": today, "bref_id": b, "articles_30d": n} for b, n in counts.items()])
-    old = load("news_counts")
+    new = pd.DataFrame([{"date": today, "bref_id": b, "articles": n} for b, n in counts.items()],
+                       columns=["date", "bref_id", "articles"])
+    old = load("news_daily")
     merged = pd.concat([old, new]) if old is not None else new
-    save(merged.drop_duplicates(["as_of", "bref_id"], keep="last").sort_values(["as_of", "bref_id"]), "news_counts")
+    merged = merged.drop_duplicates(["date", "bref_id"], keep="last").sort_values(["date", "bref_id"])
+    cutoff = (pd.Timestamp.today() - pd.Timedelta(days=PAGEVIEW_DAYS_KEPT)).strftime("%Y-%m-%d")
+    save(merged[merged.date >= cutoff], "news_daily")
     note(f"News: {len(counts)} players counted")
 
 
@@ -164,7 +170,7 @@ RAW_HEADERS = {
     "pool": ["bref_id"],
     "registry": ["bref_id", "wikidata_id", "wikipedia_title", "instagram_handle", "tiktok_handle", "media_credits"],
     "pageviews_daily": ["bref_id", "date", "views"],
-    "news_counts": ["as_of", "bref_id", "articles_30d"],
+    "news_daily": ["date", "bref_id", "articles"],
 }
 SOCIAL_HEADER = "bref_id,player,instagram_handle,instagram_followers,tiktok_handle,tiktok_followers,as_of\n"
 

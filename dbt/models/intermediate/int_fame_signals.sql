@@ -11,10 +11,19 @@ pageviews as (
     group by 1
 ),
 
-news as (   -- most recent count per player; a failed day keeps the last good number
-    select bref_id, articles_30d, as_of as news_as_of
-    from {{ ref('stg_news') }}
-    qualify row_number() over (partition by bref_id order by as_of desc) = 1
+news_window as (
+    select max(news_date) as last_day from {{ ref('stg_news') }}
+),
+
+news as (   -- daily counts summed over the last 30 days; a missed day simply adds nothing
+    select
+        n.bref_id,
+        sum(n.articles)         as articles_30d,
+        count(*)                as news_days,
+        max(n.news_date)        as news_as_of
+    from {{ ref('stg_news') }} n, news_window w
+    where n.news_date > w.last_day - interval 30 day
+    group by 1
 ),
 
 signals as (

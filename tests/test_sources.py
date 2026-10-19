@@ -48,10 +48,10 @@ def test_bref_layout_change_is_caught():
 
 def test_wikidata_parse():
     payload = {"results": {"bindings": [
-        {"bref": {"value": "jamesle01"}, "item": {"value": "http://www.wikidata.org/entity/Q36159"},
+        {"bref": {"value": "j/jamesle01"}, "item": {"value": "http://www.wikidata.org/entity/Q36159"},
          "article": {"value": "https://en.wikipedia.org/wiki/LeBron_James"},
          "instagram": {"value": "kingjames"}, "credits": {"value": "4"}},
-        {"bref": {"value": "jokicni01"}, "item": {"value": "http://www.wikidata.org/entity/Q3341526"},
+        {"bref": {"value": "j/jokicni01"}, "item": {"value": "http://www.wikidata.org/entity/Q3341526"},
          "article": {"value": "https://en.wikipedia.org/wiki/Nikola_Joki%C4%87"}, "credits": {"value": "0"}},
     ]}}
     rows = {r["bref_id"]: r for r in wikidata.parse(payload)}
@@ -62,8 +62,18 @@ def test_wikidata_parse():
 
 def test_wikidata_query_only_includes_safe_ids():
     q = wikidata.build_query(["jamesle01", 'bad" } DROP', "jamesle01"])
-    assert '"jamesle01"' in q and "DROP" not in q and q.count('"jamesle01"') == 1
+    # Wikidata stores the ID with its folder letter, e.g. j/jamesle01
+    assert '"j/jamesle01"' in q and "DROP" not in q and q.count('"j/jamesle01"') == 1
 
 
 def test_news_query_strips_accents_and_adds_context():
     assert news.default_query("Nikola Jokić") == '"Nikola Jokic" (NBA OR basketball)'
+
+
+def test_news_counts_distinct_articles():
+    feed = ("<rss><channel><title>x</title>"
+            "<item><title>A</title><link>https://a</link></item>"
+            "<item><title>A again</title><link>https://a</link></item>"
+            "<item><title>B</title><link>https://b</link></item></channel></rss>")
+    assert news.count_items(feed) == 2
+    assert news.count_items("<rss><channel></channel></rss>") == 0

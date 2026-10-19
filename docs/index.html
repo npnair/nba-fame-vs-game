@@ -57,11 +57,11 @@
     <h2>How it works</h2>
     <div class="cols">
       <div><h3>Game</h3><p>On-court value from Basketball-Reference: half VORP (total value, which rewards playing time) and half BPM (value per possession), ranked within each season. Last season carries the score early on, and 2026–27 takes over as minutes pile up.</p></div>
-      <div><h3>Fame</h3><p>Five signals, each turned into a percentile: English Wikipedia page views over the last 30 days, news articles mentioning the player in the last 30 days (GDELT), Instagram and TikTok followers, and film and TV credits (Wikidata).</p></div>
+      <div><h3>Fame</h3><p>Five signals, each turned into a percentile: English Wikipedia page views over the last 30 days, news articles mentioning the player in the last 30 days (Google News, counted daily), Instagram and TikTok followers, and film and TV credits (Wikidata).</p></div>
       <div><h3>Verdict</h3><p>Both scores are percentiles from 0 to 100. A player whose game outranks their fame by 25 points or more is underrated, and the reverse is overrated. Quadrants split at 50.</p></div>
       <div><h3>Pipeline</h3><p>A GitHub Actions job pulls every source each morning, a dbt project on DuckDB cleans and models the data, and tests check it before this page updates. Follower counts are entered by hand monthly from public profiles.</p></div>
     </div>
-    <p class="src">Sources: <a href="https://www.basketball-reference.com/" target="_blank" rel="noopener">Basketball-Reference</a>, <a href="https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews" target="_blank" rel="noopener">Wikimedia page views</a>, <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener">GDELT</a>, <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a>, public Instagram and TikTok profiles. Code on <a href="https://github.com/npnair/nba-fame-vs-game" target="_blank" rel="noopener">GitHub</a>.</p>
+    <p class="src">Sources: <a href="https://www.basketball-reference.com/" target="_blank" rel="noopener">Basketball-Reference</a>, <a href="https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews" target="_blank" rel="noopener">Wikimedia page views</a>, <a href="https://news.google.com/" target="_blank" rel="noopener">Google News</a>, <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a>, public Instagram and TikTok profiles. Code on <a href="https://github.com/npnair/nba-fame-vs-game" target="_blank" rel="noopener">GitHub</a>.</p>
   </section>
 </div>
 

@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       skip_news:
-        description: "Skip the news counts (about 25 minutes faster)"
+        description: "Skip the news counts"
         type: boolean
         default: false
 

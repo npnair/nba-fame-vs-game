@@ -63,6 +63,7 @@
       ["Data through", DATA.pageviewsThrough ? new Date(DATA.pageviewsThrough + "T12:00:00").toLocaleDateString(undefined, { month: "short", day: "numeric" }) : "—"],
       ["Social counts", `${DATA.instagramFilled} IG · ${DATA.tiktokFilled} TT`],
     ];
+    if ((DATA.newsDays || 0) < 30) items.push(["News window", `${DATA.newsDays || 0} of 30 days`]);
     $("facts").innerHTML = items.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("");
   }
 

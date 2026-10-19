@@ -39,8 +39,11 @@ def mart(tmp_path_factory):
     fame = {b: (10_000_000 - i * 1000 if i < 10 else 1000 + (N - i) * 100) for i, b in enumerate(ids)}
     write(work / "raw/pageviews_daily.csv", ["bref_id", "date", "views"],
           [[b, f"2026-10-{d:02d}", fame[b] // 30] for b in ids for d in range(1, 31)])
-    write(work / "raw/news_counts.csv", ["as_of", "bref_id", "articles_30d"],
-          [["2026-10-01", b, 1] for b in ids] + [["2026-10-18", b, fame[b] // 1000] for b in ids])
+    # Two days of news inside the window plus one stale day that must be ignored
+    write(work / "raw/news_daily.csv", ["date", "bref_id", "articles"],
+          [["2026-08-01", b, 999] for b in ids]
+          + [["2026-10-17", b, fame[b] // 2000] for b in ids]
+          + [["2026-10-18", b, fame[b] // 2000] for b in ids])
     write(work / "data/social_followers.csv",
           ["bref_id", "player", "instagram_handle", "instagram_followers", "tiktok_handle", "tiktok_followers", "as_of"],
           [["player000", "Player 0", "p0", "12.5M", "p0", "850K", "2026-10-15"],
@@ -79,8 +82,8 @@ def test_follower_counts_are_parsed(mart):
     assert row(mart, "player119")["instagram_followers"] == 1234
 
 
-def test_latest_news_count_is_used(mart):
-    assert row(mart, "player050")["news_articles_30d"] == (1000 + (N - 50) * 100) // 1000
+def test_news_sums_the_last_30_days_only(mart):
+    assert row(mart, "player050")["news_articles_30d"] == 2 * ((1000 + (N - 50) * 100) // 2000)
 
 
 def test_missing_signals_are_skipped_not_zeroed(mart):

@@ -35,7 +35,9 @@ def main() -> int:
     df = con.execute("select * from fct_fame_vs_game order by gap desc").df()
     meta = con.execute("""
         select max(view_date) as pageviews_through,
-               (select max(as_of) from stg_news) as news_as_of,
+               (select max(news_date) from stg_news) as news_as_of,
+               (select count(distinct news_date) from stg_news
+                 where news_date > (select max(news_date) from stg_news) - interval 30 day) as news_days,
                (select max(as_of) from stg_social) as social_as_of,
                (select count(*) from stg_social where instagram_followers is not null) as instagram_filled,
                (select count(*) from stg_social where tiktok_followers is not null) as tiktok_filled
@@ -51,6 +53,7 @@ def main() -> int:
         "generated": today,
         "pageviewsThrough": clean(meta.pageviews_through),
         "newsAsOf": clean(meta.news_as_of),
+        "newsDays": int(meta.news_days or 0),
         "socialAsOf": clean(meta.social_as_of),
         "instagramFilled": int(meta.instagram_filled),
         "tiktokFilled": int(meta.tiktok_filled),
