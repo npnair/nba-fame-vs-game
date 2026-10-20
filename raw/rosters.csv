@@ -2,7 +2,6 @@ bref_id,player,team
 wiggiaa01,Aaron Wiggins,ATL
 newelas01,Asa Newell,ATL
 mccolcj01,CJ McCollum,ATL
-corheca01,Cameron Corhen,ATL
 kispeco01,Corey Kispert,ATL
 finnedo01,Dorian Finney-Smith,ATL
 daniedy01,Dyson Daniels,ATL
@@ -12,7 +11,6 @@ wilsoja03,Jalen Wilson,ATL
 landajo01,Jock Landale,ATL
 gilbeke01,Keshon Gilbert,ATL
 flemiki01,Kingston Flemings,ATL
-johnsko01,Kobe Johnson,ATL
 dortlu01,Luguentz Dort,ATL
 gueyemo02,Mouhamed Gueye,ATL
 alexani01,Nickeil Alexander-Walker,ATL
@@ -25,21 +23,17 @@ cenacch01,Chris Cenac Jr.,BOS
 whitede01,Derrick White,BOS
 cartede02,Devin Carter,BOS
 mitchdi01,Dillon Mitchell,BOS
-mcgloga01,Gabe McGlothan,BOS
-grayha01,Hayden Gray,BOS
 gonzahu01,Hugo González,BOS
 tatumja01,Jayson Tatum,BOS
 walshjo01,Jordan Walsh,BOS
 garzalu01,Luka Garza,BOS
 conlemi01,Mike Conley,BOS
-uzanmi01,Milos Uzan,BOS
 robinmi01,Mitchell Robinson,BOS
 quetane01,Neemias Queta,BOS
 georgpa01,Paul George,BOS
 pritcpa01,Payton Pritchard,BOS
 harpero02,Ron Harper Jr.,BOS
 hausesa01,Sam Hauser,BOS
-devritu01,Tucker DeVries,BOS
 sarafbe01,Ben Saraf,BRK
 johnsch06,Chaney Johnson,BRK
 wolfda01,Danny Wolf,BRK
@@ -58,13 +52,10 @@ clownno01,Noah Clowney,BRK
 traorno01,Nolan Traoré,BRK
 mannte01,Terance Mann,BRK
 bilodty01,Tyler Bilodeau,BRK
-bostobr01,Brandon Boston Jr.,CHI
 hieldbu01,Buddy Hield,CHI
 wilsoca01,Caleb Wilson,CHI
 swainda01,Dailyn Swain,CHI
-peterdr01,Drew Peterson,CHI
 okorois01,Isaac Okoro,CHI
-bridgja01,Jalen Bridges,CHI
 smithja04,Jalen Smith,CHI
 selleja01,Jaylin Sellers,CHI
 hawkijo01,Jordan Hawkins,CHI
@@ -74,7 +65,6 @@ buzelma01,Matas Buzelis,CHI
 claxtni01,Nic Claxton,CHI
 essenno01,Noa Essengue,CHI
 powelno01,Norman Powell,CHI
-robinor01,Orlando Robinson,CHI
 willipa01,Patrick Williams,CHI
 awakato01,Tobe Awaka,CHI
 jonestr01,Tre Jones,CHI
@@ -86,16 +76,13 @@ schrode01,Dennis Schröder,CHO
 willigr01,Grant Williams,CHO
 allengr01,Grayson Allen,CHO
 steinha02,Hannes Steinbach,CHO
-joineja01,Jarkel Joiner,CHO
 knuepko01,Kon Knueppel,CHO
 bosweky01,Kylan Boswell,CHO
-wrighla02,Latrell Wrightsell Jr.,CHO
 mcneeli01,Liam McNeeley,CHO
 ajayimi01,Michael Ajayi,CHO
 diabamo01,Moussa Diabaté,CHO
 reidna01,Naz Reid,CHO
 hallpj01,PJ Hall,CHO
-connapa01,Pat Connaughton,CHO
 onealro01,Royce O'Neale,CHO
 kalkbry01,Ryan Kalkbrenner,CHO
 jamessi01,Sion James,CHO
@@ -111,22 +98,18 @@ diopkh01,Khalifa Diop,CLE
 hezonma01,Mario Hezonja,CLE
 thomame01,Meleek Thomas,CLE
 tomlina01,Nae'Qwan Tomlin,CLE
-yaacono01,Noam Yaacov,CLE
 watsope01,Peyton Watson,CLE
-ageera01,Rashaun Agee,CLE
 minixri01,Riley Minix,CLE
 merrisa01,Sam Merrill,CLE
 bryanth01,Thomas Bryant,CLE
 enarutr01,Tristan Enaruna,CLE
 proctty01,Tyrese Proctor,CLE
-austiza01,Zack Austin,CLE
 martica02,Caleb Martin,DAL
 flaggco01,Cooper Flagg,DAL
 gaffoda01,Daniel Gafford,DAL
 livelde01,Dereck Lively II,DAL
 poweldw01,Dwight Powell,DAL
 howarje01,Jett Howard,DAL
-poulajo01,John Poulakidas,DAL
 irvinky01,Kyrie Irving,DAL
 sassema01,Marcus Sasser,DAL
 chrisma02,Max Christie,DAL
@@ -136,7 +119,6 @@ marshna01,Naji Marshall,DAL
 washipj01,P.J. Washington,DAL
 aldamsa01,Santi Aldama,DAL
 delarse01,Sergio de Larrea,DAL
-lundyse01,Seth Lundy,DAL
 biberta01,Tarik Biberovic,DAL
 lawalto01,Tobi Lawal,DAL
 risacza01,Zaccharie Risacher,DAL
@@ -145,11 +127,8 @@ hopkibr01,Bryce Hopkins,DEN
 whitmca01,Cam Whitmore,DEN
 johnsca02,Cameron Johnson,DEN
 braunch01,Christian Braun,DEN
-hawkico03,Coleman Hawkins,DEN
 holmeda01,DaRon Holmes,DEN
-goodwda02,Dane Goodwin,DEN
 derozde01,DeMar DeRozan,DEN
-milleem01,Emanuel Miller,DEN
 murraja01,Jamal Murray,DEN
 strawju01,Julian Strawther,DEN
 baglema01,Marvin Bagley III,DEN
@@ -160,7 +139,6 @@ brazitr01,Trevon Brazile,DEN
 jonesty01,Tyus Jones,DEN
 nnajize01,Zeke Nnaji,DEN
 thompau01,Ausar Thompson,DET
-willibr05,Brice Williams,DET
 cunnica01,Cade Cunningham,DET
 laniech01,Chaz Lanier,DET
 jenkida01,Daniss Jenkins,DET
@@ -172,7 +150,6 @@ joeis01,Isaiah Joe,DET
 durenja01,Jalen Duren,DET
 greenja02,Javonte Green,DET
 collijo01,John Collins,DET
-ukomajo01,John Ukomadu,DET
 huertke01,Kevin Huerter,DET
 reedpa01,Paul Reed,DET
 hollaro01,Ron Holland,DET
@@ -180,11 +157,9 @@ princta02,Taurean Prince,DET
 smithto05,Tolu Smith,DET
 onyenug01,Ugonna Onyenso,DET
 horfoal01,Al Horford,GSW
-tooheal01,Alex Toohey,GSW
 podzibr01,Brandin Podziemski,GSW
 willibr03,Brandon Williams,GSW
 bassech01,Charles Bassey,GSW
-terryda01,Dalen Terry,GSW
 meltode01,De'Anthony Melton,GSW
 greendr01,Draymond Green,GSW
 paytoga02,Gary Payton II,GSW
@@ -197,14 +172,12 @@ cryerlj01,LJ Cryer,GSW
 leonsma01,Malevy Leons,GSW
 moodymo01,Moses Moody,GSW
 curryst01,Stephen Curry,GSW
-burtoty01,Tyler Burton,GSW
 richawi02,Will Richard,GSW
 lendeya01,Yaxel Lendeborg,GSW
 sengual01,Alperen Şengün,HOU
 thompam01,Amen Thompson,HOU
 bogdabo01,Bogdan Bogdanović,HOU
 thornbr01,Bruce Thornton,HOU
-matthca01,Cameron Matthews,HOU
 capelca01,Clint Capela,HOU
 vanvlfr01,Fred VanVleet,HOU
 crawfis01,Isaiah Crawford,HOU
@@ -225,44 +198,38 @@ sheppbe01,Ben Sheppard,IND
 smithbr01,Braden Smith,IND
 zubaciv01,Ivica Zubac,IND
 slawsja01,Jalen Slawson,IND
-johnsja01,James Johnson,IND
 walkeja02,Jarace Walker,IND
 huffja01,Jay Huff,IND
 furphjo01,Johnny Furphy,IND
-keitake01,Keba Keita,IND
 oubreke01,Kelly Oubre Jr.,IND
 brownko01,Kobe Brown,IND
 nancela02,Larry Nance Jr.,IND
 toppiob01,Obi Toppin,IND
 siakapa01,Pascal Siakam,IND
 jacksqu01,Quenton Jackson,IND
-mastri01,Rienk Mast,IND
 mccontj01,T.J. McConnell,IND
 halibty01,Tyrese Haliburton,IND
 milleba01,Baba Miller,LAC
-weslebl01,Blake Wesley,LAC
 bealbr01,Bradley Beal,LAC
 ingrabr01,Brandon Ingram,LAC
 lopezbr01,Brook Lopez,LAC
+chrisca02,Cam Christie,LAC
 garlada01,Darius Garland,LAC
 jonesde02,Derrick Jones Jr.,LAC
 dickgr01,Gradey Dick,LAC
 jacksis01,Isaiah Jackson,LAC
-telfoja01,Jahmyl Telfort,LAC
 pickeja02,Jalen Pickett,LAC
 millejo02,Jordan Miller,LAC
 wagleke01,Keaton Wagler,LAC
 sandeko01,Kobe Sanders,LAC
 dunnkr01,Kris Dunn,LAC
 strusma01,Max Strus,LAC
-onimi01,Miye Oni,LAC
 martini01,Nick Martinelli,LAC
 batumni01,Nicolas Batum,LAC
 hachiru01,Rui Hachimura,LAC
 konanya01,Yanic Konan Niederhäuser,LAC
 okereak01,AK Okereke,LAL
 thierad01,Adou Thiero,LAL
-taitjan01,Aniwaniwa Tait-Jones,LAL
 kalumar01,Arthur Kaluma,LAL
 reaveau01,Austin Reaves,LAL
 jamesbr02,Bronny James,LAL
@@ -278,7 +245,6 @@ doncilu01,Luka Dončić,LAL
 thybuma01,Matisse Thybulle,LAL
 smithni01,Nick Smith Jr.,LAL
 grimequ01,Quentin Grimes,LAL
-castrra01,Rafael Castro,LAL
 mamuksa01,Sandro Mamukelashvili,LAL
 kesslwa01,Walker Kessler,LAL
 willizi02,Ziaire Williams,LAL
@@ -301,20 +267,16 @@ pippesc02,Scotty Pippen Jr.,MEM
 hendrta01,Taylor Hendricks,MEM
 jeromty01,Ty Jerome,MEM
 claytwa01,Walter Clayton,MEM
-cleveza01,Zach Cleveland,MEM
 edeyza01,Zach Edey,MEM
 wiggian01,Andrew Wiggins,MIA
 adebaba01,Bam Adebayo,MIA
-mbengbe01,Bez Mbeng,MIA
 portibo01,Bobby Portis,MIA
 mitchda01,Davion Mitchell,MIA
 smithdr01,Dru Smith,MIA
-madsega01,Gabe Madsen,MIA
 antetgi01,Giannis Antetokounmpo,MIA
 youngja05,Jahmir Young,MIA
 johnske10,Keshad Johnson,MIA
 thompkl01,Klay Thompson,MIA
-kelleky01,Kylor Kelley,MIA
 gardnmy01,Myron Gardner,MIA
 richani01,Nick Richards,MIA
 jovicni01,Nikola Jović,MIA
@@ -331,9 +293,7 @@ leverca01,Caris LeVert,MIL
 ryanco01,Cormac Ryan,MIL
 trentga02,Gary Trent Jr.,MIL
 jaqueja01,Jaime Jaquez Jr.,MIL
-stephja02,Jake Stephens,MIL
 simsje01,Jericho Sims,MIL
-broomjo01,Johni Broome,MIL
 joneska03,Kam Jones,MIL
 jakucka01,Kasparas Jakučionis,MIL
 wareke01,Kel'el Ware,MIL
@@ -342,25 +302,19 @@ kuzmaky01,Kyle Kuzma,MIL
 turnemy01,Myles Turner,MIL
 amentna01,Nate Ament,MIL
 diengou01,Ousmane Dieng,MIL
-nancepe01,Pete Nance,MIL
 rolliry01,Ryan Rollins,MIL
 herroty01,Tyler Herro,MIL
 edwaran01,Anthony Edwards,MIN
-reevean01,Antonio Reeves,MIN
 dosunay01,Ayo Dosunmu,MIN
 hylanbo01,Bones Hyland,MIN
 willico04,Cody Williams,MIN
 divindo01,Donte DiVincenzo,MIN
-timmedr01,Drew Timme,MIN
-freemen01,Enrique Freeman,MIN
 evansis01,Isaiah Evans,MIN
 mcdanja02,Jaden McDaniels,MIN
 clarkja02,Jaylen Clark,MIN
 berinjo01,Joan Beringer,MIN
 kuminjo01,Jonathan Kuminga,MIN
-martike04,KJ Martin,MIN
 ballla01,LaMelo Ball,MIN
-omierno01,Norchad Omier,MIN
 zikarro01,Rocco Zikarsky,MIN
 goberru01,Rudy Gobert,MIN
 shannte01,Terrence Shannon Jr.,MIN
@@ -373,14 +327,11 @@ jordade01,DeAndre Jordan,NOP
 murrade01,Dejounte Murray,NOP
 queende01,Derik Queen,NOP
 joneshe01,Herbert Jones,NOP
-dickihu01,Hunter Dickinson,NOP
-mooreja05,Jalon Moore,NOP
 pierrja01,Jaron Pierre Jr.,NOP
 fearsje01,Jeremiah Fears,NOP
 poolejo01,Jordan Poole,NOP
 reeseju01,Julian Reese,NOP
 matkoka01,Karlo Matković,NOP
-bufkiko01,Kobe Bufkin,NOP
 diama01,Malik Dia,NOP
 beysa01,Saddiq Bey,NOP
 watfotr01,Trendon Watford,NOP
@@ -388,7 +339,6 @@ murphtr02,Trey Murphy III,NOP
 missiyv01,Yves Missi,NOP
 willizi01,Zion Williamson,NOP
 drumman01,Andre Drummond,NYK
-brownbr01,Bruce Brown,NYK
 akinsja01,Jaden Akins,NYK
 brunsja01,Jalen Brunson,NYK
 wisemja01,James Wiseman,NYK
@@ -408,13 +358,10 @@ nickety01,Tyler Nickel,NYK
 maraad01,Aday Mara,OKC
 mitchaj01,Ajay Mitchell,OKC
 carusal01,Alex Caruso,OKC
-holifan01,Andrew Holifield,OKC
-pritcan01,Anthony Pritchard,OKC
 stirtbe01,Bennett Stirtz,OKC
 barnhbr01,Brooks Barnhizer,OKC
 wallaca01,Cason Wallace,OKC
 holmgch01,Chet Holmgren,OKC
-tillych01,Christoph Tilly,OKC
 harteis01,Isaiah Hartenstein,OKC
 willija06,Jalen Williams,OKC
 mccaija01,Jared McCain,OKC
@@ -425,7 +372,6 @@ topicni01,Nikola Topić,OKC
 owehot01,Otega Oweh,OKC
 gilgesh01,Shai Gilgeous-Alexander,OKC
 sorbeth01,Thomas Sorber,OKC
-smithzh01,Zhaire Smith,OKC
 moralal01,Alex Morales,ORL
 blackan01,Anthony Black,ORL
 castlco01,Colin Castleton,ORL
@@ -433,14 +379,11 @@ banede01,Desmond Bane,ORL
 wagnefr01,Franz Wagner,ORL
 bitadgo01,Goga Bitadze,ORL
 nelsoiz01,Izaiyah Nelson,ORL
-davisjd01,JD Davison,ORL
 suggsja01,Jalen Suggs,ORL
 cainja01,Jamal Cain,ORL
 richaja02,Jase Richardson,ORL
 carteje01,Jevon Carter,ORL
 isaacjo01,Jonathan Isaac,ORL
-knoxke01,Kevin Knox,ORL
-branhma01,Malaki Branham,ORL
 vucevni01,Nikola Vučević,ORL
 pendano01,Noah Penda,ORL
 banchpa01,Paolo Banchero,ORL
@@ -451,10 +394,8 @@ simonan01,Anfernee Simons,PHI
 hukpoar01,Ariel Hukporti,PHI
 loveca01,Caleb Love,PHI
 wadede01,Dean Wade,PHI
-jonesdi01,Dillon Jones,PHI
 barlodo01,Dominick Barlow,PHI
 walkeja01,Jabari Walker,PHI
-nelsoja02,Jameer Nelson Jr.,PHI
 brownja02,Jaylen Brown,PHI
 embiijo01,Joel Embiid,PHI
 edwarju01,Justin Edwards,PHI
@@ -470,11 +411,9 @@ gilleco01,Collin Gillespie,PHO
 bookede01,Devin Booker,PHO
 brookdi01,Dillon Brooks,PHO
 reathdu01,Duop Reath,PHO
-highsha01,Haywood Highsmith,PHO
 greenja05,Jalen Green,PHO
 bouyeja01,Jamaree Bouyea,PHO
 goodwjo01,Jordan Goodwin,PHO
-chandke01,Kennedy Chandler,PHO
 maluakh01,Khaman Maluach,PHO
 peatko01,Koa Peat,PHO
 breako01,Koby Brea,PHO
@@ -483,18 +422,15 @@ willima07,Mark Williams,PHO
 bridgmi02,Miles Bridges,PHO
 ighodos01,Oso Ighodaro,PHO
 spencpa01,Pat Spencer,PHO
-wheelph02,Phillip Wheeler,PHO
 flemira01,Rasheer Fleming,PHO
 dunnry01,Ryan Dunn,PHO
 carlsbr01,Branden Carlson,POR
-houstca01,Caleb Houstan,POR
 youngch01,Chris Youngblood,POR
 lillada01,Damian Lillard,POR
 avdijde01,Deni Avdija,POR
 clingdo01,Donovan Clingan,POR
 moranja01,Ja Morant,POR
 kentja01,Jayson Kent,POR
-sochaje01,Jeremy Sochan,POR
 tonjejo01,John Tonje,POR
 holidjr01,Jrue Holiday,POR
 pottemi01,Micah Potter,POR
@@ -512,7 +448,6 @@ plowdda01,Daeqwon Plowden,SAC
 acuffda01,Darius Acuff Jr.,SAC
 huntede01,De'Andre Hunter,SAC
 sabondo01,Domantas Sabonis,SAC
-paytoel01,Elfrid Payton,SAC
 sharpem01,Emanuel Sharp,SAC
 mogbojo01,Jonathan Mogbo,SAC
 murrake02,Keegan Murray,SAC
@@ -522,8 +457,6 @@ monkma01,Malik Monk,SAC
 raynama01,Maxime Raynaud,SAC
 cliffni01,Nique Clifford,SAC
 achiupr01,Precious Achiuwa,SAC
-newtotr01,Tristen Newton,SAC
-lakhivi01,Viktor Lakhin,SAC
 lavinza01,Zach LaVine,SAC
 bryanca01,Carter Bryant,SAS
 jonesda06,David Jones García,SAS
@@ -536,7 +469,6 @@ quainja01,Jayden Quaintance,SAS
 mclaujo01,Jordan McLaughlin,SAS
 champju02,Julian Champagnie,SAS
 johnske04,Keldon Johnson,SAS
-brownke03,Kendall Brown,SAS
 kornelu01,Luke Kornet,SAS
 brownma05,Maliq Brown,SAS
 castlst01,Stephon Castle,SAS
@@ -551,18 +483,14 @@ walteja01,Ja'Kobe Walter,TOR
 bradlja02,Jaden Bradley,TOR
 poeltja01,Jakob Poeltl,TOR
 sheadja01,Jamal Shead,TOR
-sharpja01,Jamarion Sharp,TOR
 battlja01,Jamison Battle,TOR
 leonaka01,Kawhi Leonard,TOR
 anderky01,Kyle Anderson,TOR
 smithma02,Malachi Smith,TOR
 bittlna01,Nate Bittle,TOR
-burneni01,Nimari Burnett,TOR
 barrerj01,RJ Barrett,TOR
 barnesc01,Scottie Barnes,TOR
 jackstr02,Trayce Jackson-Davis,TOR
-keyty01,Tyreke Key,TOR
-degenty01,Tyson Degenhart,TOR
 baileac01,Ace Bailey,UTA
 hinsobl01,Blake Hinson,UTA
 sensabr01,Brice Sensabaugh,UTA
@@ -571,7 +499,6 @@ ingraha01,Harrison Ingram,UTA
 colliis01,Isaiah Collier,UTA
 jacksja02,Jaren Jackson Jr.,UTA
 hayesja02,Jaxson Hayes,UTA
-aidoojo01,Jonas Aidoo,UTA
 greenjo02,Josh Green,UTA
 okogijo01,Josh Okogie,UTA
 nurkiju01,Jusuf Nurkić,UTA
@@ -580,16 +507,14 @@ filipky01,Kyle Filipowski,UTA
 markkla01,Lauri Markkanen,UTA
 bambamo01,Mo Bamba,UTA
 mykhasv01,Svi Mykhailiuk,UTA
-batesta01,Tamar Bates,UTA
+bradlto01,Tony Bradley,UTA
 alexatr01,Trey Alexander,UTA
 dybanaj01,AJ Dybantsa,WAS
 sarral01,Alex Sarr,WAS
-willial06,Alondes Williams,WAS
 davisan02,Anthony Davis,WAS
 gillan01,Anthony Gill,WAS
 coulibi01,Bilal Coulibaly,WAS
 carrica01,Bub Carrington,WAS
-livinch01,Chris Livingston,WAS
 aytonde01,Deandre Ayton,WAS
 okparfe01,Felix Okpara,WAS
 watkija01,Jamir Watkins,WAS
@@ -600,6 +525,5 @@ beekmre01,Reece Beekman,WAS
 youngtr01,Trae Young,WAS
 johnstr03,Tre Johnson,WAS
 manntr01,Tre Mann,WAS
-keelstr01,Trevor Keels,WAS
 vukcetr01,Tristan Vukcevic,WAS
 rileywi01,Will Riley,WAS
