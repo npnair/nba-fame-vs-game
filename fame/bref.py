@@ -79,6 +79,43 @@ def parse_advanced(page: str | bytes, min_rows: int = 100) -> list[dict]:
     return out
 
 
+TEAMS = ["ATL", "BOS", "BRK", "CHI", "CHO", "CLE", "DAL", "DEN", "DET", "GSW", "HOU", "IND", "LAC", "LAL", "MEM",
+         "MIA", "MIL", "MIN", "NOP", "NYK", "OKC", "ORL", "PHI", "PHO", "POR", "SAC", "SAS", "TOR", "UTA", "WAS"]
+ROSTER_URL = "https://www.basketball-reference.com/teams/{team}/{season}.html"
+PLAYER_LINK = re.compile(r"^/players/\w/([a-z0-9]+)\.html$")
+
+
+def parse_roster(page: str | bytes) -> list[dict]:
+    """Players on a team page's current roster table."""
+    tree = html.fromstring(page)
+    tables = tree.xpath("//table[@id='roster']")
+    if not tables:
+        raise ValueError("Roster table not found on the page")
+    players = {}
+    for link in tables[0].xpath(".//tbody//a[starts-with(@href, '/players/')]"):
+        m = PLAYER_LINK.match(link.get("href", ""))
+        if m:
+            players.setdefault(m.group(1), link.text_content().strip())
+    if not players:
+        raise ValueError("Roster table has no players")
+    return [{"bref_id": pid, "player": name} for pid, name in players.items()]
+
+
+def fetch_rosters(season: int, pause: float = 3.5) -> tuple[list[dict], list[str]]:
+    """Every team's roster. Basketball-Reference allows up to 20 requests a minute, hence the pause.
+    Returns (rows, teams that failed)."""
+    import time
+    rows, failed = [], []
+    for team in TEAMS:
+        try:
+            for p in parse_roster(get(ROSTER_URL.format(team=team, season=season))):
+                rows.append({**p, "team": team})
+        except (FetchError, ValueError):
+            failed.append(team)
+        time.sleep(pause)
+    return rows, failed
+
+
 def fetch_season(season: int, min_rows: int = 100) -> list[dict] | None:
     """Return the season's rows, or None if the season hasn't started (no page or no table yet)."""
     try:

@@ -77,3 +77,15 @@ def test_news_counts_distinct_articles():
             "<item><title>B</title><link>https://b</link></item></channel></rss>")
     assert news.count_items(feed) == 2
     assert news.count_items("<rss><channel></channel></rss>") == 0
+
+
+def test_roster_parse():
+    page = ('<html><body><table id="roster"><thead><tr><th>No.</th></tr></thead><tbody>'
+            '<tr><th>23</th><td data-stat="player"><a href="/players/j/jamesle01.html">LeBron James</a></td></tr>'
+            '<tr><th>7</th><td data-stat="player"><a href="/players/b/brownja02.html">Jaylen Brown</a></td>'
+            '<td><a href="/friv/colleges.fcgi?college=california">California</a></td></tr>'
+            '</tbody></table></body></html>')
+    assert bref.parse_roster(page) == [{"bref_id": "jamesle01", "player": "LeBron James"},
+                                       {"bref_id": "brownja02", "player": "Jaylen Brown"}]
+    with pytest.raises(ValueError):
+        bref.parse_roster("<html><body>No roster</body></html>")

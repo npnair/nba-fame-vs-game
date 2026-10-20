@@ -8,6 +8,8 @@ The data refreshes every morning through an automated pipeline: Python extracts 
 
 ## The two scores
 
+**Who's included.** Players with 1,000+ minutes last season or 150+ minutes this season who are on an NBA roster today. Rosters come from Basketball-Reference's team pages each morning, so offseason trades and signings show up right away and retired or waived players drop off.
+
 **Game (x axis).** On-court value from Basketball-Reference's advanced stats: half VORP (total value over a replacement player, which rewards playing time) and half BPM (value per 100 possessions), each ranked within the season. Last season's numbers carry the score early on, and the 2026–27 season takes over as minutes accumulate (half weight at 1,000 minutes).
 
 **Fame (y axis).** A weighted blend of five signals, each converted to a percentile within the player pool:
@@ -87,10 +89,9 @@ tests/                parser tests and an offline dbt build test
 - News counts started on Oct 20, 2026, so the 30-day news window fills in over the first month.
 - Follower counts are entered by hand, so they're only as fresh as the last monthly update.
 - Production uses box-score metrics (BPM, VORP), which underrate elite defenders who don't fill the box score.
-- Players change teams in the offseason, but their team label updates only once they play for the new team.
 
 ## Data sources and terms
 
-[Basketball-Reference](https://www.basketball-reference.com/) (one or two requests a day, within its published rate limits), [Wikimedia page views API](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews), Google News RSS search feeds (about 280 requests a day, one per second), [Wikidata](https://www.wikidata.org/) (CC0). Instagram and TikTok counts are read manually from public profiles. Nothing is scraped from either platform.
+[Basketball-Reference](https://www.basketball-reference.com/) (about 32 requests a day, paced to stay within its limit of 20 per minute), [Wikimedia page views API](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews), Google News RSS search feeds (about 280 requests a day, one per second), [Wikidata](https://www.wikidata.org/) (CC0). Instagram and TikTok counts are read manually from public profiles. Nothing is scraped from either platform.
 
 MIT license. Not affiliated with the NBA or any team.

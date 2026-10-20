@@ -56,7 +56,7 @@ blended as (
 select
     b.bref_id,
     i.player_name,
-    i.team,
+    coalesce(r.roster_team, i.team)     as team,   -- current roster first, else last team played for
     i.position,
     i.age,
     b.games,
@@ -68,4 +68,5 @@ select
     b.cur_weight * coalesce(b.cur_score, 0) + (1 - b.cur_weight) * coalesce(b.prev_score, 0) as production_raw
 from blended b
 join latest_info i using (bref_id)
+left join {{ ref('stg_rosters') }} r using (bref_id)
 where b.prev_score is not null or b.cur_score is not null

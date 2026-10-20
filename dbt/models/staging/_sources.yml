@@ -13,6 +13,8 @@ sources:
         description: 2026-27 advanced stats, refreshed daily (empty before opening night)
       - name: pool
         description: Players included in the chart
+      - name: rosters
+        description: Current team rosters, so offseason moves show before a player's first game
       - name: registry
         description: Wikidata match per player (Wikipedia title, social handles, film and TV credits)
       - name: pageviews_daily

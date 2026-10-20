@@ -34,6 +34,8 @@ def mart(tmp_path_factory):
           [[b, f"Player {i}", 25, "BOS", "G", 70, 1500 + i, 15, .55, 20, i / 10, -5 + i / 10, i / 20] for i, b in enumerate(ids)])
     write(work / "raw/bref_advanced_2027.csv", stats_header, [])
     write(work / "raw/pool.csv", ["bref_id"], [[b] for b in ids])
+    # Player 0 moved teams over the summer; everyone else has no roster row (falls back to stats team)
+    write(work / "raw/rosters.csv", ["bref_id", "player", "team"], [["player000", "Player 0", "PHI"]])
     write(work / "raw/registry.csv", ["bref_id", "wikidata_id", "wikipedia_title", "instagram_handle", "tiktok_handle", "media_credits"],
           [[b, f"Q{i}", f"Player_{i}", "", "", 1 if i == 0 else 0] for i, b in enumerate(ids)])
     fame = {b: (10_000_000 - i * 1000 if i < 10 else 1000 + (N - i) * 100) for i, b in enumerate(ids)}
@@ -89,3 +91,8 @@ def test_news_sums_the_last_30_days_only(mart):
 def test_missing_signals_are_skipped_not_zeroed(mart):
     r = row(mart, "player050")
     assert r["instagram_pct"] is None and r["fame_signals_used"] == 3   # page views, news, media credits
+
+
+def test_current_roster_team_wins_over_last_seasons_team(mart):
+    assert row(mart, "player000")["team"] == "PHI"
+    assert row(mart, "player001")["team"] == "BOS"

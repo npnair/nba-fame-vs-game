@@ -71,10 +71,34 @@ def extract_stats() -> pd.DataFrame:
     return pd.concat(frames, ignore_index=True)
 
 
-def player_pool(stats: pd.DataFrame) -> list[str]:
+def extract_rosters() -> pd.DataFrame | None:
+    """Current team for every rostered player. A team whose page fails keeps yesterday's roster."""
+    rows, failed = bref.fetch_rosters(CUR_SEASON)
+    new = pd.DataFrame(rows, columns=["bref_id", "player", "team"])
+    old = load("rosters")
+    if failed:
+        note(f"Rosters failed for {len(failed)} teams, keeping their saved rosters: {', '.join(failed)}", error=True)
+        if old is not None:
+            new = pd.concat([new, old[old.team.isin(failed)]], ignore_index=True)
+    if new.empty:
+        return old
+    new = new.drop_duplicates("bref_id", keep="first").sort_values(["team", "player"])
+    save(new, "rosters")
+    note(f"Rosters: {len(new)} players on {new.team.nunique()} teams")
+    return new
+
+
+def player_pool(stats: pd.DataFrame, rosters: pd.DataFrame | None) -> list[str]:
+    """Regular players from last season or this one who are on a roster right now."""
     prev = stats[(stats.season == PREV_SEASON) & (stats.mp >= PREV_MIN_MINUTES)].bref_id
     cur = stats[(stats.season == CUR_SEASON) & (stats.mp >= CUR_MIN_MINUTES)].bref_id
-    return sorted(set(prev) | set(cur))
+    pool = set(prev) | set(cur)
+    if rosters is not None and rosters.team.nunique() >= 28:
+        dropped = pool - set(rosters.bref_id)
+        if dropped:
+            note(f"Left out {len(dropped)} players who aren't on an NBA roster now (retired, waived or overseas)")
+        pool &= set(rosters.bref_id)
+    return sorted(pool)
 
 
 def extract_registry(pool: list[str]) -> pd.DataFrame:
@@ -168,6 +192,7 @@ RAW_HEADERS = {
     f"bref_advanced_{PREV_SEASON}": bref.COLUMNS,
     f"bref_advanced_{CUR_SEASON}": bref.COLUMNS,
     "pool": ["bref_id"],
+    "rosters": ["bref_id", "player", "team"],
     "registry": ["bref_id", "wikidata_id", "wikipedia_title", "instagram_handle", "tiktok_handle", "media_credits"],
     "pageviews_daily": ["bref_id", "date", "views"],
     "news_daily": ["date", "bref_id", "articles"],
@@ -203,7 +228,8 @@ def main() -> int:
 
     if not args.models_only:
         stats = extract_stats()
-        pool = player_pool(stats)
+        rosters = extract_rosters()
+        pool = player_pool(stats, rosters)
         save(pd.DataFrame({"bref_id": pool}), "pool")
         note(f"Player pool: {len(pool)} players")
         reg = extract_registry(pool)
