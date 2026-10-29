@@ -1,6 +1,7 @@
 bref_id,wikidata_id,wikipedia_title,instagram_handle,tiktok_handle,media_credits
-jamesle01,Q36159,LeBron_James,kingjames,,13
 duranke01,Q29545,Kevin_Durant,easymoneysniper,,1
+jamesle01,Q36159,LeBron_James,kingjames,,13
+davisan02,Q317008,Anthony_Davis,antdavis23,,4
 curryst01,Q352159,Stephen_Curry,stephencurry30,stephencurry30,1
 greendr01,Q2614593,Draymond_Green,money23green,,1
 edwaran01,Q60951627,Anthony_Edwards_(basketball),theanthonyedwards_,,1
@@ -8,11 +9,9 @@ hardeja01,Q136678,James_Harden,jharden13,,0
 barneha02,Q222851,Harrison_Barnes,hbarnes,,0
 batumni01,Q352114,Nicolas_Batum,nicbatum88,,0
 derozde01,Q456374,DeMar_DeRozan,demar_derozan,,0
-lopezbr01,Q460131,Brook_Lopez,,,0
 drumman01,Q493115,Andre_Drummond,,andredrummond,0
 butleji01,Q498348,Jimmy_Butler,jimmybutler,jimmybutler,0
 holidjr01,Q622213,Jrue_Holiday,jrue_holiday11,,0
-leonaka01,Q926248,Kawhi_Leonard,,,0
 georgpa01,Q973121,Paul_George,ygtrece,,0
 harrito02,Q2481543,Tobias_Harris,,,0
 goberru01,Q3446792,Rudy_Gobert,rudygobert27,,0
@@ -25,7 +24,6 @@ fontesi01,Q12269620,Simone_Fontecchio,,,0
 caldwke01,Q13562909,Kentavious_Caldwell-Pope,caldwellpope,,0
 lavinza01,Q15908942,Zach_LaVine,zachlavine8,,0
 embiijo01,Q15920046,Joel_Embiid,joelembiid,,0
-leverca01,Q16228087,Caris_LeVert,,,0
 jokicni01,Q17281073,Nikola_Jokić,jokara95,,0
 clarkjo01,Q17302809,Jordan_Clarkson,jclark5on,,0
 brunsja01,Q17305725,Jalen_Brunson,jalenbrunson1,,0
@@ -80,6 +78,7 @@ achiupr01,Q63112754,Precious_Achiuwa,precious,,0
 claxtni01,Q64010219,Nic_Claxton,nicolasclaxton,,0
 cunnica01,Q65030944,Cade_Cunningham,cadecunn1ngham,,0
 johnsja05,Q66187310,Jalen_Johnson,,,0
+kuminjo01,Q66391607,Jonathan_Kuminga,jonathan_kuminga,,0
 barnesc01,Q66459298,Scottie_Barnes,,,0
 aldamsa01,Q69308603,Santi_Aldama,santialdama,,0
 joeis01,Q74839687,Isaiah_Joe,zai.joe1,,0
@@ -109,6 +108,7 @@ jonessp01,Q100863058,Spencer_Jones_(basketball),,,0
 laravja01,Q100874540,Jake_LaRavia,,,0
 joneshe01,Q100983694,Herbert_Jones_(basketball),yung.ch0,,0
 durenja01,Q104698929,Jalen_Duren,,,0
+kesslwa01,Q106486426,Walker_Kessler,,,0
 elliske01,Q106817980,Keon_Ellis,kkeon4,,0
 easonta01,Q106818128,Tari_Eason,,,0
 cliffni01,Q106818157,Nique_Clifford,,,0
@@ -153,8 +153,10 @@ thompkl01,Q29342,Klay_Thompson,klaythompson,,3
 portibo01,Q19667582,Bobby_Portis,bportistime,,1
 whitede01,Q30122669,Derrick_White,dwhite921,,2
 nurkiju01,Q115915,Jusuf_Nurkić,bosnianbeast27,,0
+lopezbr01,Q460131,Brook_Lopez,,,0
 middlkh01,Q558663,Khris_Middleton,k_mid22,,0
 vucevni01,Q659886,Nikola_Vučević,,,0
+leonaka01,Q926248,Kawhi_Leonard,,,0
 wiggian01,Q4758911,Andrew_Wiggins,22wiggins,,0
 mccolcj01,Q5006560,CJ_McCollum,,,0
 townska01,Q6372315,Karl-Anthony_Towns,karltowns,,0
@@ -162,6 +164,7 @@ smartma01,Q6758454,Marcus_Smart,youngamechanger,,0
 schrode01,Q10862660,Dennis_Schröder,ds17_fg,ds17trickshots,0
 mykhasv01,Q14901752,Sviatoslav_Mykhailiuk,sviat_10,,0
 randlju01,Q15623860,Julius_Randle,juliusownedbytraeyoungrandle30,,0
+leverca01,Q16228087,Caris_LeVert,,,0
 powelno01,Q16661017,Norman_Powell,normanpowell4,,0
 turnemy01,Q17403499,Myles_Turner,turner_myles,,0
 oubreke01,Q18619686,Kelly_Oubre_Jr.,kellyoubrejr,,0
@@ -180,6 +183,7 @@ sextoco01,Q29044421,Collin_Sexton,collinyoungbull,,0
 washipj01,Q29044852,P._J._Washington,pj_washington,,0
 vandeja01,Q29045021,Jarred_Vanderbilt,jvando_,,0
 trentga02,Q29045079,Gary_Trent_Jr.,gtrentjr2,,0
+youngtr01,Q29045112,Trae_Young,traeyoung,,0
 willizi01,Q29165842,Zion_Williamson,zionwilliamson,,0
 mitchdo01,Q30122104,Donovan_Mitchell,spidadmitchell,,0
 robinmi01,Q32123497,Mitchell_Robinson,mrobinson23_,,0
@@ -272,4 +276,6 @@ traorno01,Q125140895,Nolan_Traoré,nolan_traore0,,0
 wellsja01,Q125930121,Jaylen_Wells,jaylenwellss,,0
 rileywi01,Q130355819,Will_Riley,willyjball7,,0
 tomlina01,Q131672929,Nae'Qwan_Tomlin,,,0
+lendeya01,Q131991030,Yaxel_Lendeborg,,,0
+wilsoca01,Q132067715,Caleb_Wilson,,,0
 richawi02,Q133189753,Will_Richard,,,0
