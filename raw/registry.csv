@@ -1,10 +1,10 @@
 bref_id,wikidata_id,wikipedia_title,instagram_handle,tiktok_handle,media_credits
-duranke01,Q29545,Kevin_Durant,easymoneysniper,,1
 jamesle01,Q36159,LeBron_James,kingjames,,13
+duranke01,Q29545,Kevin_Durant,easymoneysniper,,1
 davisan02,Q317008,Anthony_Davis,antdavis23,,4
+curryst01,Q352159,Stephen_Curry,stephencurry30,stephencurry30,1
 greendr01,Q2614593,Draymond_Green,money23green,,1
 edwaran01,Q60951627,Anthony_Edwards_(basketball),theanthonyedwards_,,1
-curryst01,Q352159,Stephen_Curry,stephencurry30,stephencurry30,1
 hardeja01,Q136678,James_Harden,jharden13,,0
 barneha02,Q222851,Harrison_Barnes,hbarnes,,0
 batumni01,Q352114,Nicolas_Batum,nicbatum88,,0
@@ -167,6 +167,7 @@ mykhasv01,Q14901752,Sviatoslav_Mykhailiuk,sviat_10,,0
 randlju01,Q15623860,Julius_Randle,juliusownedbytraeyoungrandle30,,0
 lavinza01,Q15908942,Zach_LaVine,zachlavine8,,0
 leverca01,Q16228087,Caris_LeVert,,,0
+vanvlfr01,Q16236628,Fred_VanVleet,fredvanvleet,,0
 powelno01,Q16661017,Norman_Powell,normanpowell4,,0
 turnemy01,Q17403499,Myles_Turner,turner_myles,,0
 oubreke01,Q18619686,Kelly_Oubre_Jr.,kellyoubrejr,,0
@@ -175,6 +176,7 @@ paytoga02,Q19979256,Gary_Payton_II,garydwayne,,0
 murraja01,Q20711111,Jamal_Murray,bemore27,,0
 poeltja01,Q20714917,Jakob_Pöltl,,,0
 monkma01,Q21622110,Malik_Monk,,,0
+tatumja01,Q21623063,Jayson_Tatum,jaytatum0,,0
 robindu01,Q22073886,Duncan_Robinson,,,0
 siakapa01,Q23541220,Pascal_Siakam,,,0
 zubaciv01,Q23761524,Ivica_Zubac,,,0
@@ -195,6 +197,7 @@ shamela01,Q44968365,Landry_Shamet,landry_shamet,,0
 simonan01,Q49692513,Anfernee_Simons,antsimons,,0
 meltode01,Q50874963,De'Anthony_Melton,deanthony_melton,,0
 wadede01,Q50879812,Dean_Wade,,,0
+thybuma01,Q50938690,Matisse_Thybulle,,,0
 okogijo01,Q51337517,Josh_Okogie,,,0
 wagnefr01,Q53394086,Franz_Wagner,franz_weasley,,0
 quickim01,Q55433150,Immanuel_Quickley,immanuelquickley__,,0
@@ -219,6 +222,7 @@ vassede01,Q82831692,Devin_Vassell,devin_vassell,,0
 suggsja01,Q82831721,Jalen_Suggs,,,0
 mamuksa01,Q84360117,Sandro_Mamukelashvili,,,0
 willipa01,Q85792426,Patrick_Williams_(basketball),,,0
+reedpa01,Q85792514,Paul_Reed_(basketball),bball_paul,,0
 loveca01,Q93781008,Caleb_Love,caleb,,0
 moodymo01,Q97154115,Moses_Moody,mosesmoody,,0
 willima07,Q97359395,Mark_Williams_(basketball),,,0
