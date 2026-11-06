@@ -1,10 +1,10 @@
 bref_id,wikidata_id,wikipedia_title,instagram_handle,tiktok_handle,media_credits
+duranke01,Q29545,Kevin_Durant,easymoneysniper,,1
 jamesle01,Q36159,LeBron_James,kingjames,,13
 davisan02,Q317008,Anthony_Davis,antdavis23,,4
 irvinky01,Q348618,Kyrie_Irving,kyrieirving,,1
 greendr01,Q2614593,Draymond_Green,money23green,,1
 edwaran01,Q60951627,Anthony_Edwards_(basketball),theanthonyedwards_,,1
-duranke01,Q29545,Kevin_Durant,easymoneysniper,,1
 curryst01,Q352159,Stephen_Curry,stephencurry30,stephencurry30,1
 hardeja01,Q136678,James_Harden,jharden13,,0
 barneha02,Q222851,Harrison_Barnes,hbarnes,,0
@@ -232,7 +232,6 @@ mamuksa01,Q84360117,Sandro_Mamukelashvili,,,0
 reedpa01,Q85792514,Paul_Reed_(basketball),bball_paul,,0
 loveca01,Q93781008,Caleb_Love,caleb,,0
 moodymo01,Q97154115,Moses_Moody,mosesmoody,,0
-willima07,Q97359395,Mark_Williams_(basketball),,,0
 wiggiaa01,Q98686661,Aaron_Wiggins,,,0
 smithja05,Q100268254,Jabari_Smith_Jr.,,,0
 laravja01,Q100874540,Jake_LaRavia,,,0
@@ -295,6 +294,7 @@ murraco01,Q124788522,Collin_Murray-Boyles,,,0
 traorno01,Q125140895,Nolan_Traoré,nolan_traore0,,0
 wellsja01,Q125930121,Jaylen_Wells,jaylenwellss,,0
 rileywi01,Q130355819,Will_Riley,willyjball7,,0
+richaja02,Q130942214,Jase_Richardson,,,0
 tomlina01,Q131672929,Nae'Qwan_Tomlin,,,0
 lendeya01,Q131991030,Yaxel_Lendeborg,,,0
 richawi02,Q133189753,Will_Richard,,,0
@@ -305,5 +305,6 @@ youngtr01,Q29045112,Trae_Young,traeyoung,,0
 willizi01,Q29165842,Zion_Williamson,zionwilliamson,,0
 willizi02,Q65929905,Ziaire_Williams,,,0
 willipa01,Q85792426,Patrick_Williams_(basketball),,,0
+willima07,Q97359395,Mark_Williams_(basketball),,,0
 wolfda01,Q120671600,Danny_Wolf,danny.wolf6,,0
 wilsoca01,Q132067715,Caleb_Wilson,,,0
