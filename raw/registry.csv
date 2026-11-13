@@ -1,11 +1,11 @@
 bref_id,wikidata_id,wikipedia_title,instagram_handle,tiktok_handle,media_credits
 jamesle01,Q36159,LeBron_James,kingjames,,13
+duranke01,Q29545,Kevin_Durant,easymoneysniper,,1
 davisan02,Q317008,Anthony_Davis,antdavis23,,4
+curryst01,Q352159,Stephen_Curry,stephencurry30,stephencurry30,1
 irvinky01,Q348618,Kyrie_Irving,kyrieirving,,1
 greendr01,Q2614593,Draymond_Green,money23green,,1
 edwaran01,Q60951627,Anthony_Edwards_(basketball),theanthonyedwards_,,1
-duranke01,Q29545,Kevin_Durant,easymoneysniper,,1
-curryst01,Q352159,Stephen_Curry,stephencurry30,stephencurry30,1
 hardeja01,Q136678,James_Harden,jharden13,,0
 barneha02,Q222851,Harrison_Barnes,hbarnes,,0
 batumni01,Q352114,Nicolas_Batum,nicbatum88,,0
@@ -67,7 +67,6 @@ alexani01,Q56513207,Nickeil_Alexander-Walker,nickeilaw,,0
 greenja05,Q58009130,Jalen_Green,jalen,,0
 dortlu01,Q59209443,Luguentz_Dort,luthebeast,,0
 hayesja02,Q60963199,Jaxson_Hayes,jaxsonhayes,,0
-jeromty01,Q61660709,Ty_Jerome,tyjerome_,,0
 herroty01,Q61959905,Tyler_Herro,nolimitherro,,0
 achiupr01,Q63112754,Precious_Achiuwa,precious,,0
 claxtni01,Q64010219,Nic_Claxton,nicolasclaxton,,0
@@ -105,6 +104,7 @@ elliske01,Q106817980,Keon_Ellis,kkeon4,,0
 easonta01,Q106818128,Tari_Eason,,,0
 cliffni01,Q106818157,Nique_Clifford,,,0
 jamessi01,Q106818165,Sion_James,,,0
+clarkja02,Q106818444,Jaylen_Clark,,,0
 ighodos01,Q106818582,Oso_Ighodaro,oso_i,,0
 dasiltr01,Q106819050,Tristan_da_Silva,,,0
 hendesc01,Q106928080,Scoot_Henderson,,,0
@@ -155,7 +155,6 @@ portibo01,Q19667582,Bobby_Portis,bportistime,,1
 nurkiju01,Q115915,Jusuf_Nurkić,bosnianbeast27,,0
 lopezbr01,Q460131,Brook_Lopez,,,0
 middlkh01,Q558663,Khris_Middleton,k_mid22,,0
-vucevni01,Q659886,Nikola_Vučević,,,0
 leonaka01,Q926248,Kawhi_Leonard,,,0
 mccolcj01,Q5006560,CJ_McCollum,,,0
 sabondo01,Q5289916,Domantas_Sabonis,dsabonis11,,0
@@ -201,16 +200,17 @@ okongon01,Q44858580,Onyeka_Okongwu,,,0
 shamela01,Q44968365,Landry_Shamet,landry_shamet,,0
 simonan01,Q49692513,Anfernee_Simons,antsimons,,0
 meltode01,Q50874963,De'Anthony_Melton,deanthony_melton,,0
-wadede01,Q50879812,Dean_Wade,,,0
 thybuma01,Q50938690,Matisse_Thybulle,,,0
 johnske04,Q51120738,Keldon_Johnson,keldonjohnson,,0
 okogijo01,Q51337517,Josh_Okogie,,,0
 johnsca02,Q54860931,Cameron_Johnson,,,0
+martica02,Q55367789,Caleb_Martin_(basketball),,,0
 quickim01,Q55433150,Immanuel_Quickley,immanuelquickley__,,0
 reidna01,Q55641235,Naz_Reid,,,0
 smithja04,Q56250275,Jalen_Smith,,,0
 mcdanja02,Q60950296,Jaden_McDaniels,therealjadenmcdaniels,,0
 stewais01,Q61173132,Isaiah_Stewart,,,0
+jeromty01,Q61660709,Ty_Jerome,tyjerome_,,0
 jonestr01,Q61677596,Tre_Jones,,,0
 quetane01,Q62072476,Neemias_Queta,,,0
 merrisa01,Q62719191,Sam_Merrill,,,0
@@ -227,7 +227,6 @@ toppiob01,Q75060241,Obi_Toppin,obitoppin_1,,0
 marshna01,Q75656968,Naji_Marshall,,,0
 kispeco01,Q79871145,Corey_Kispert,,,0
 nesmiaa01,Q82831609,Aaron_Nesmith,aaron_nesmith,,0
-vassede01,Q82831692,Devin_Vassell,devin_vassell,,0
 suggsja01,Q82831721,Jalen_Suggs,,,0
 mamuksa01,Q84360117,Sandro_Mamukelashvili,,,0
 reedpa01,Q85792514,Paul_Reed_(basketball),bball_paul,,0
@@ -243,6 +242,7 @@ mitchda01,Q100885338,Davion_Mitchell,,,0
 murphtr02,Q100889412,Trey_Murphy_III,,,0
 postqu01,Q100903059,Quinten_Post,,,0
 reaveau01,Q100909225,Austin_Reaves,,,0
+sassema01,Q100919920,Marcus_Sasser,m.sasser0,,0
 scheiba01,Q100920277,Baylor_Scheierman,baylorrr3,,0
 shannte01,Q100921874,Terrence_Shannon_Jr.,,,0
 sheppbe01,Q100922242,Ben_Sheppard_(basketball),,,0
@@ -300,6 +300,7 @@ stirtbe01,Q133066148,Bennett_Stirtz,,,0
 richawi02,Q133189753,Will_Richard,,,0
 johnsch06,Q136399673,Chaney_Johnson,,,0
 whitede01,Q30122669,Derrick_White,dwhite921,,2
+vucevni01,Q659886,Nikola_Vučević,,,0
 wiggian01,Q4758911,Andrew_Wiggins,22wiggins,,0
 wagnemo01,Q22999836,Moritz_Wagner_(basketball),moritz_weasley,,0
 zubaciv01,Q23761524,Ivica_Zubac,,,0
@@ -307,11 +308,13 @@ williro04,Q28151848,Robert_Williams_III,williams.lll,,0
 washipj01,Q29044852,P._J._Washington,pj_washington,,0
 youngtr01,Q29045112,Trae_Young,traeyoung,,0
 willizi01,Q29165842,Zion_Williamson,zionwilliamson,,0
+wadede01,Q50879812,Dean_Wade,,,0
 wagnefr01,Q53394086,Franz_Wagner,franz_weasley,,0
 willike04,Q53871110,Kenrich_Williams,kenrich_williams,,0
 whiteco01,Q58494697,Coby_White,,,0
 willizi02,Q65929905,Ziaire_Williams,,,0
 wembavi01,Q72941595,Victor_Wembanyama,wemby,wemby,0
+vassede01,Q82831692,Devin_Vassell,devin_vassell,,0
 willipa01,Q85792426,Patrick_Williams_(basketball),,,0
 willima07,Q97359395,Mark_Williams_(basketball),,,0
 wiggiaa01,Q98686661,Aaron_Wiggins,,,0
