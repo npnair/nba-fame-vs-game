@@ -51,6 +51,7 @@ cartewe01,Q28925029,Wendell_Carter_Jr.,wendellcarterjr,wendellcarterjr,0
 collijo01,Q28935742,John_Collins_(basketball),jcollins20_,,0
 baglema01,Q28972128,Marvin_Bagley_III,mb3five,,0
 allenja01,Q29048308,Jarrett_Allen,_bigjayy_,,0
+bambamo01,Q29318958,Mo_Bamba,therealmobamba_,,0
 barrerj01,Q32786169,RJ_Barrett,rjbarrett,,0
 gilgesh01,Q32860369,Shai_Gilgeous-Alexander,shai,,0
 avdijde01,Q42302125,Deni_Avdija,deniavdia8,,0
@@ -96,7 +97,6 @@ champju02,Q100768908,Julian_Champagnie,,,0
 champju01,Q100768909,Justin_Champagnie,,,0
 hylanbo01,Q100807991,Bones_Hyland,,,0
 jacksqu01,Q100818328,Quenton_Jackson,,,0
-jenkida01,Q100831053,Daniss_Jenkins,,,0
 durenja01,Q104698929,Jalen_Duren,,,0
 jacksis01,Q106782830,Isaiah_Jackson_(basketball),,,0
 edeyza01,Q106817973,Zach_Edey,zach_edey,,0
@@ -149,9 +149,9 @@ brownmi02,Q132127812,Mikel_Brown_Jr.,mikel_brownjr,,0
 burribr01,Q132150978,Brayden_Burries,braydenburries0,,0
 flemiki01,Q136773915,Kingston_Flemings,,,0
 graveal01,Q137888885,Allen_Graves,,,0
-thompkl01,Q29342,Klay_Thompson,klaythompson,,3
 lillada01,Q622308,Damian_Lillard,damianlillard,,3
 portibo01,Q19667582,Bobby_Portis,bportistime,,1
+thompkl01,Q29342,Klay_Thompson,klaythompson,,3
 nurkiju01,Q115915,Jusuf_Nurkić,bosnianbeast27,,0
 lopezbr01,Q460131,Brook_Lopez,,,0
 middlkh01,Q558663,Khris_Middleton,k_mid22,,0
@@ -165,7 +165,6 @@ mykhasv01,Q14901752,Sviatoslav_Mykhailiuk,sviat_10,,0
 randlju01,Q15623860,Julius_Randle,juliusownedbytraeyoungrandle30,,0
 lavinza01,Q15908942,Zach_LaVine,zachlavine8,,0
 leverca01,Q16228087,Caris_LeVert,,,0
-vanvlfr01,Q16236628,Fred_VanVleet,fredvanvleet,,0
 powelno01,Q16661017,Norman_Powell,normanpowell4,,0
 jokicni01,Q17281073,Nikola_Jokić,jokara95,,0
 turnemy01,Q17403499,Myles_Turner,turner_myles,,0
@@ -189,7 +188,6 @@ krejcvi01,Q28873271,Vít_Krejčí,,,0
 kennalu01,Q28935925,Luke_Kennard,,,0
 kornelu01,Q28967738,Luke_Kornet,,,0
 sextoco01,Q29044421,Collin_Sexton,collinyoungbull,,0
-vandeja01,Q29045021,Jarred_Vanderbilt,jvando_,,0
 trentga02,Q29045079,Gary_Trent_Jr.,gtrentjr2,,0
 kuzmaky01,Q30063347,Kyle_Kuzma,kuz,kuz,0
 mitchdo01,Q30122104,Donovan_Mitchell,spidadmitchell,,0
@@ -234,6 +232,7 @@ loveca01,Q93781008,Caleb_Love,caleb,,0
 moodymo01,Q97154115,Moses_Moody,mosesmoody,,0
 matkoka01,Q98216023,Karlo_Matković,,,0
 smithja05,Q100268254,Jabari_Smith_Jr.,,,0
+jenkida01,Q100831053,Daniss_Jenkins,,,0
 jonessp01,Q100863058,Spencer_Jones_(basketball),,,0
 laravja01,Q100874540,Jake_LaRavia,,,0
 mcbrimi01,Q100881311,Miles_McBride,,,0
@@ -247,6 +246,7 @@ scheiba01,Q100920277,Baylor_Scheierman,baylorrr3,,0
 shannte01,Q100921874,Terrence_Shannon_Jr.,,,0
 sheppbe01,Q100922242,Ben_Sheppard_(basketball),,,0
 simsje01,Q100923193,Jericho_Sims,,,0
+slawsja01,Q100923648,Jalen_Slawson,,,0
 smithdr01,Q100924114,Dru_Smith,,,0
 spencca01,Q100925863,Cam_Spencer,,,0
 spencpa01,Q100925911,Pat_Spencer,,,0
@@ -302,10 +302,12 @@ johnsch06,Q136399673,Chaney_Johnson,,,0
 whitede01,Q30122669,Derrick_White,dwhite921,,2
 vucevni01,Q659886,Nikola_Vučević,,,0
 wiggian01,Q4758911,Andrew_Wiggins,22wiggins,,0
+vanvlfr01,Q16236628,Fred_VanVleet,fredvanvleet,,0
 wagnemo01,Q22999836,Moritz_Wagner_(basketball),moritz_weasley,,0
 zubaciv01,Q23761524,Ivica_Zubac,,,0
 williro04,Q28151848,Robert_Williams_III,williams.lll,,0
 washipj01,Q29044852,P._J._Washington,pj_washington,,0
+vandeja01,Q29045021,Jarred_Vanderbilt,jvando_,,0
 youngtr01,Q29045112,Trae_Young,traeyoung,,0
 willizi01,Q29165842,Zion_Williamson,zionwilliamson,,0
 wadede01,Q50879812,Dean_Wade,,,0
