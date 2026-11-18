@@ -8698,3 +8698,352 @@ date,bref_id,player_name,production_score,fame_score,gap,quadrant,verdict
 2026-11-17,smartma01,Marcus Smart,22.3,84.6,-62.3,Hype,Overrated
 2026-11-17,hachiru01,Rui Hachimura,15.1,80.9,-65.8,Hype,Overrated
 2026-11-17,acuffda01,Darius Acuff Jr.,18.8,92.2,-73.4,Hype,Overrated
+2026-11-18,smithdr01,Dru Smith,73.9,2.0,71.9,Hidden gems,Underrated
+2026-11-18,portecr01,Craig Porter Jr.,72.4,1.1,71.3,Hidden gems,Underrated
+2026-11-18,blackle01,Leaky Black,75.6,8.3,67.3,Hidden gems,Underrated
+2026-11-18,goodwjo01,Jordan Goodwin,75.9,11.2,64.7,Hidden gems,Underrated
+2026-11-18,martial01,Alijah Martin,69.3,6.6,62.7,Hidden gems,Underrated
+2026-11-18,kornelu01,Luke Kornet,83.3,22.7,60.6,Hidden gems,Underrated
+2026-11-18,williro04,Robert Williams,89.4,31.9,57.5,Hidden gems,Underrated
+2026-11-18,willike04,Kenrich Williams,62.1,4.6,57.5,Hidden gems,Underrated
+2026-11-18,smallja01,Javon Small,56.0,0.0,56.0,Hidden gems,Underrated
+2026-11-18,gilleco01,Collin Gillespie,80.7,25.3,55.4,Hidden gems,Underrated
+2026-11-18,clarkja02,Jaylen Clark,56.6,1.4,55.2,Hidden gems,Underrated
+2026-11-18,willima07,Mark Williams,74.1,21.8,52.3,Hidden gems,Underrated
+2026-11-18,fontesi01,Simone Fontecchio,52.9,2.3,50.6,Hidden gems,Underrated
+2026-11-18,jonestr01,Tre Jones,70.1,19.8,50.3,Hidden gems,Underrated
+2026-11-18,kalkbry01,Ryan Kalkbrenner,67.8,18.4,49.4,Hidden gems,Underrated
+2026-11-18,wagnemo01,Moritz Wagner,82.5,33.3,49.2,Hidden gems,Underrated
+2026-11-18,shannte01,Terrence Shannon Jr.,78.4,29.6,48.8,Hidden gems,Underrated
+2026-11-18,millejo02,Jordan Miller,54.0,6.0,48.0,Hidden gems,Underrated
+2026-11-18,spencca01,Cam Spencer,85.9,38.5,47.4,Hidden gems,Underrated
+2026-11-18,toppiob01,Obi Toppin,64.7,18.7,46.0,Hidden gems,Underrated
+2026-11-18,sharpda01,Day'Ron Sharpe,66.4,20.4,46.0,Hidden gems,Underrated
+2026-11-18,bambamo01,Mo Bamba,91.1,46.8,44.3,Hidden gems,Underrated
+2026-11-18,onealro01,Royce O'Neale,59.5,17.0,42.5,Hidden gems,Underrated
+2026-11-18,lylestr01,Trey Lyles,76.4,34.2,42.2,Hidden gems,Underrated
+2026-11-18,hausesa01,Sam Hauser,65.8,24.4,41.4,Hidden gems,Underrated
+2026-11-18,berinjo01,Joan Beringer,64.4,23.0,41.4,Hidden gems,Underrated
+2026-11-18,murphtr02,Trey Murphy III,79.9,39.1,40.8,Hidden gems,Underrated
+2026-11-18,vanvlfr01,Fred VanVleet,92.0,51.4,40.6,Stars,Underrated
+2026-11-18,martica02,Caleb Martin,46.3,5.7,40.6,Under the radar,Underrated
+2026-11-18,jacksqu01,Quenton Jackson,48.0,7.5,40.5,Under the radar,Underrated
+2026-11-18,joeis01,Isaiah Joe,83.9,45.1,38.8,Hidden gems,Underrated
+2026-11-18,greenja02,Javonte Green,68.4,29.9,38.5,Hidden gems,Underrated
+2026-11-18,proctty01,Tyrese Proctor,80.2,42.0,38.2,Hidden gems,Underrated
+2026-11-18,elliske01,Keon Ellis,40.2,2.6,37.6,Under the radar,Underrated
+2026-11-18,jacksis01,Isaiah Jackson,46.3,9.2,37.1,Under the radar,Underrated
+2026-11-18,battlja01,Jamison Battle,40.5,4.0,36.5,Under the radar,Underrated
+2026-11-18,leverca01,Caris LeVert,41.4,4.9,36.5,Under the radar,Underrated
+2026-11-18,johnske04,Keldon Johnson,58.6,24.1,34.5,Hidden gems,Underrated
+2026-11-18,quickim01,Immanuel Quickley,87.6,53.7,33.9,Stars,Underrated
+2026-11-18,huffja01,Jay Huff,55.7,22.1,33.6,Hidden gems,Underrated
+2026-11-18,nancela02,Larry Nance Jr.,48.0,15.2,32.8,Under the radar,Underrated
+2026-11-18,nurkiju01,Jusuf Nurkić,61.2,29.3,31.9,Hidden gems,Underrated
+2026-11-18,landajo01,Jock Landale,48.9,17.2,31.7,Under the radar,Underrated
+2026-11-18,sheppre01,Reed Sheppard,81.3,50.0,31.3,Stars,Underrated
+2026-11-18,champju02,Julian Champagnie,79.0,48.3,30.7,Hidden gems,Underrated
+2026-11-18,batumni01,Nicolas Batum,32.2,1.7,30.5,Under the radar,Underrated
+2026-11-18,dunnry01,Ryan Dunn,38.5,8.0,30.5,Under the radar,Underrated
+2026-11-18,slawsja01,Jalen Slawson,33.3,3.7,29.6,Under the radar,Underrated
+2026-11-18,quetane01,Neemias Queta,86.2,57.8,28.4,Stars,Underrated
+2026-11-18,vassede01,Devin Vassell,63.8,35.6,28.2,Hidden gems,Underrated
+2026-11-18,clingdo01,Donovan Clingan,92.8,64.7,28.1,Stars,Underrated
+2026-11-18,hylanbo01,Bones Hyland,73.6,45.7,27.9,Hidden gems,Underrated
+2026-11-18,bogdabo01,Bogdan Bogdanović,51.1,23.3,27.8,Hidden gems,Underrated
+2026-11-18,suggsja01,Jalen Suggs,85.1,58.6,26.5,Stars,Underrated
+2026-11-18,okongon01,Onyeka Okongwu,68.7,42.2,26.5,Hidden gems,Underrated
+2026-11-18,diabamo01,Moussa Diabaté,73.3,47.4,25.9,Hidden gems,Underrated
+2026-11-18,garzalu01,Luka Garza,76.7,51.1,25.6,Stars,Underrated
+2026-11-18,paytoga02,Gary Payton II,61.8,36.2,25.6,Hidden gems,Underrated
+2026-11-18,durenja01,Jalen Duren,97.1,71.8,25.3,Stars,Underrated
+2026-11-18,mobleev01,Evan Mobley,92.5,67.2,25.3,Stars,Underrated
+2026-11-18,allenja01,Jarrett Allen,84.2,59.2,25.0,Stars,Underrated
+2026-11-18,kennalu01,Luke Kennard,58.3,33.9,24.4,Hidden gems,Fairly rated
+2026-11-18,vucevni01,Nikola Vučević,74.4,50.3,24.1,Stars,Fairly rated
+2026-11-18,gaffoda01,Daniel Gafford,61.5,37.4,24.1,Hidden gems,Fairly rated
+2026-11-18,aldamsa01,Santi Aldama,67.5,43.7,23.8,Hidden gems,Fairly rated
+2026-11-18,reedpa01,Paul Reed,60.6,37.9,22.7,Hidden gems,Fairly rated
+2026-11-18,strusma01,Max Strus,33.3,10.6,22.7,Under the radar,Fairly rated
+2026-11-18,rolliry01,Ryan Rollins,51.4,29.0,22.4,Hidden gems,Fairly rated
+2026-11-18,filipky01,Kyle Filipowski,33.9,11.5,22.4,Under the radar,Fairly rated
+2026-11-18,willija07,Jaylin Williams,82.8,60.9,21.9,Stars,Fairly rated
+2026-11-18,daniedy01,Dyson Daniels,83.0,61.5,21.5,Stars,Fairly rated
+2026-11-18,baglema01,Marvin Bagley III,58.9,38.5,20.4,Hidden gems,Fairly rated
+2026-11-18,harteis01,Isaiah Hartenstein,89.7,69.5,20.2,Stars,Fairly rated
+2026-11-18,merrisa01,Sam Merrill,47.1,27.3,19.8,Under the radar,Fairly rated
+2026-11-18,wareke01,Kel'el Ware,64.1,44.5,19.6,Hidden gems,Fairly rated
+2026-11-18,okogijo01,Josh Okogie,29.0,9.5,19.5,Under the radar,Fairly rated
+2026-11-18,tysonja01,Jaylon Tyson,47.7,28.4,19.3,Under the radar,Fairly rated
+2026-11-18,mcbrimi01,Miles McBride,63.5,44.8,18.7,Hidden gems,Fairly rated
+2026-11-18,stirtbe01,Bennett Stirtz,52.3,33.6,18.7,Hidden gems,Fairly rated
+2026-11-18,scheiba01,Baylor Scheierman,60.3,42.8,17.5,Hidden gems,Fairly rated
+2026-11-18,murraja01,Jamal Murray,96.8,79.3,17.5,Stars,Fairly rated
+2026-11-18,mykhasv01,Svi Mykhailiuk,20.1,3.2,16.9,Under the radar,Fairly rated
+2026-11-18,marshna01,Naji Marshall,41.7,25.0,16.7,Under the radar,Fairly rated
+2026-11-18,kispeco01,Corey Kispert,21.8,5.5,16.3,Under the radar,Fairly rated
+2026-11-18,jacksgg01,GG Jackson II,26.4,10.1,16.3,Under the radar,Fairly rated
+2026-11-18,krejcvi01,Vít Krejčí,23.9,7.8,16.1,Under the radar,Fairly rated
+2026-11-18,hayesja02,Jaxson Hayes,62.6,46.6,16.0,Hidden gems,Fairly rated
+2026-11-18,kolekty01,Tyler Kolek,58.0,42.5,15.5,Hidden gems,Fairly rated
+2026-11-18,gueyemo02,Mouhamed Gueye,28.4,12.9,15.5,Under the radar,Fairly rated
+2026-11-18,jonesde02,Derrick Jones Jr.,43.7,28.7,15.0,Under the radar,Fairly rated
+2026-11-18,bridgmi02,Miles Bridges,79.3,64.4,14.9,Stars,Fairly rated
+2026-11-18,foxde01,De'Aaron Fox,86.5,71.6,14.9,Stars,Fairly rated
+2026-11-18,thybuma01,Matisse Thybulle,74.7,59.8,14.9,Stars,Fairly rated
+2026-11-18,salauti01,Tidjane Salaün,32.8,18.1,14.7,Under the radar,Fairly rated
+2026-11-18,claxtni01,Nic Claxton,65.5,50.9,14.6,Stars,Fairly rated
+2026-11-18,beysa01,Saddiq Bey,68.1,54.3,13.8,Stars,Fairly rated
+2026-11-18,huertke01,Kevin Huerter,45.7,32.5,13.2,Under the radar,Fairly rated
+2026-11-18,ighodos01,Oso Ighodaro,49.4,36.5,12.9,Under the radar,Fairly rated
+2026-11-18,jeromty01,Ty Jerome,93.4,80.7,12.7,Stars,Fairly rated
+2026-11-18,hollaro01,Ron Holland,21.3,8.6,12.7,Under the radar,Fairly rated
+2026-11-18,walteja01,Ja'Kobe Walter,39.9,27.3,12.6,Under the radar,Fairly rated
+2026-11-18,grantje01,Jerami Grant,56.3,44.0,12.3,Hidden gems,Fairly rated
+2026-11-18,banede01,Desmond Bane,69.5,57.5,12.0,Stars,Fairly rated
+2026-11-18,barneha02,Harrison Barnes,51.7,39.7,12.0,Hidden gems,Fairly rated
+2026-11-18,moodymo01,Moses Moody,48.9,37.1,11.8,Under the radar,Fairly rated
+2026-11-18,graveal01,Allen Graves,31.3,20.1,11.2,Under the radar,Fairly rated
+2026-11-18,murrakr01,Kris Murray,26.7,15.5,11.2,Under the radar,Fairly rated
+2026-11-18,sengual01,Alperen Şengün,97.4,86.8,10.6,Stars,Fairly rated
+2026-11-18,johnsja05,Jalen Johnson,88.8,78.2,10.6,Stars,Fairly rated
+2026-11-18,knuepko01,Kon Knueppel,92.2,81.9,10.3,Stars,Fairly rated
+2026-11-18,sensabr01,Brice Sensabaugh,22.7,12.6,10.1,Under the radar,Fairly rated
+2026-11-18,harrito02,Tobias Harris,71.8,61.8,10.0,Stars,Fairly rated
+2026-11-18,hendrta01,Taylor Hendricks,16.1,6.9,9.2,Under the radar,Fairly rated
+2026-11-18,dunnkr01,Kris Dunn,49.7,40.8,8.9,Under the radar,Fairly rated
+2026-11-18,holidjr01,Jrue Holiday,84.5,76.4,8.1,Stars,Fairly rated
+2026-11-18,matkoka01,Karlo Matković,27.3,19.3,8.0,Under the radar,Fairly rated
+2026-11-18,barlodo01,Dominick Barlow,33.9,26.1,7.8,Under the radar,Fairly rated
+2026-11-18,allengr01,Grayson Allen,80.5,72.7,7.8,Stars,Fairly rated
+2026-11-18,maluakh01,Khaman Maluach,31.3,23.9,7.4,Under the radar,Fairly rated
+2026-11-18,sabondo01,Domantas Sabonis,84.8,77.6,7.2,Stars,Fairly rated
+2026-11-18,mitchaj01,Ajay Mitchell,77.6,70.4,7.2,Stars,Fairly rated
+2026-11-18,holmgch01,Chet Holmgren,94.3,87.4,6.9,Stars,Fairly rated
+2026-11-18,thompau01,Ausar Thompson,90.2,83.3,6.9,Stars,Fairly rated
+2026-11-18,murraco01,Collin Murray-Boyles,54.3,47.7,6.6,Hidden gems,Fairly rated
+2026-11-18,avdijde01,Deni Avdija,96.6,90.2,6.4,Stars,Fairly rated
+2026-11-18,cunnica01,Cade Cunningham,98.6,92.2,6.4,Stars,Fairly rated
+2026-11-18,poeltja01,Jakob Poeltl,59.8,53.4,6.4,Stars,Fairly rated
+2026-11-18,markkla01,Lauri Markkanen,81.0,74.7,6.3,Stars,Fairly rated
+2026-11-18,divindo01,Donte DiVincenzo,71.0,64.9,6.1,Stars,Fairly rated
+2026-11-18,hartjo01,Josh Hart,81.6,75.6,6.0,Stars,Fairly rated
+2026-11-18,carusal01,Alex Caruso,72.1,66.1,6.0,Stars,Fairly rated
+2026-11-18,butleji01,Jimmy Butler,93.7,87.9,5.8,Stars,Fairly rated
+2026-11-18,anderch02,Christian Anderson Jr.,10.6,5.2,5.4,Under the radar,Fairly rated
+2026-11-18,cowarce01,Cedric Coward,60.9,55.7,5.2,Stars,Fairly rated
+2026-11-18,easonta01,Tari Eason,29.9,24.7,5.2,Under the radar,Fairly rated
+2026-11-18,mitchdo01,Donovan Mitchell,96.0,91.1,4.9,Stars,Fairly rated
+2026-11-18,jokicni01,Nikola Jokić,99.7,94.8,4.9,Stars,Fairly rated
+2026-11-18,bassech01,Charles Bassey,53.2,48.3,4.9,Hidden gems,Fairly rated
+2026-11-18,bridgmi01,Mikal Bridges,76.1,71.3,4.8,Stars,Fairly rated
+2026-11-18,barnesc01,Scottie Barnes,93.1,88.5,4.6,Stars,Fairly rated
+2026-11-18,leonaka01,Kawhi Leonard,98.9,94.3,4.6,Stars,Fairly rated
+2026-11-18,tatumja01,Jayson Tatum,98.0,93.4,4.6,Stars,Fairly rated
+2026-11-18,dosunay01,Ayo Dosunmu,77.9,73.3,4.6,Stars,Fairly rated
+2026-11-18,gilgesh01,Shai Gilgeous-Alexander,99.4,95.1,4.3,Stars,Fairly rated
+2026-11-18,whitede01,Derrick White,89.9,85.9,4.0,Stars,Fairly rated
+2026-11-18,cainja01,Jamal Cain,4.3,0.3,4.0,Under the radar,Fairly rated
+2026-11-18,alexani01,Nickeil Alexander-Walker,71.3,67.5,3.8,Stars,Fairly rated
+2026-11-18,kuminjo01,Jonathan Kuminga,71.6,67.8,3.8,Stars,Fairly rated
+2026-11-18,tomlina01,Nae'Qwan Tomlin,20.4,16.7,3.7,Under the radar,Fairly rated
+2026-11-18,jakucka01,Kasparas Jakučionis,24.1,21.0,3.1,Under the radar,Fairly rated
+2026-11-18,jaqueja01,Jaime Jaquez Jr.,59.2,56.3,2.9,Stars,Fairly rated
+2026-11-18,maxeyty01,Tyrese Maxey,98.3,95.4,2.9,Stars,Fairly rated
+2026-11-18,mannte01,Terance Mann,6.6,4.0,2.6,Under the radar,Fairly rated
+2026-11-18,braunch01,Christian Braun,34.8,32.2,2.6,Under the radar,Fairly rated
+2026-11-18,simsje01,Jericho Sims,8.9,6.3,2.6,Under the radar,Fairly rated
+2026-11-18,johnsch06,Chaney Johnson,3.4,0.9,2.5,Under the radar,Fairly rated
+2026-11-18,castlst01,Stephon Castle,82.2,79.9,2.3,Stars,Fairly rated
+2026-11-18,pritcpa01,Payton Pritchard,83.6,81.3,2.3,Stars,Fairly rated
+2026-11-18,hieldbu01,Buddy Hield,32.8,30.5,2.3,Under the radar,Fairly rated
+2026-11-18,wembavi01,Victor Wembanyama,100.0,97.7,2.3,Stars,Fairly rated
+2026-11-18,townska01,Karl-Anthony Towns,94.8,92.8,2.0,Stars,Fairly rated
+2026-11-18,sharpsh01,Shaedon Sharpe,27.6,25.6,2.0,Under the radar,Fairly rated
+2026-11-18,ruperra01,Rayan Rupert,2.0,0.6,1.4,Under the radar,Fairly rated
+2026-11-18,jenkida01,Daniss Jenkins,50.3,49.1,1.2,Hidden gems,Fairly rated
+2026-11-18,dasiltr01,Tristan Da Silva,44.5,43.4,1.1,Under the radar,Fairly rated
+2026-11-18,doncilu01,Luka Dončić,99.1,98.0,1.1,Stars,Fairly rated
+2026-11-18,thompam01,Amen Thompson,89.1,88.2,0.9,Stars,Fairly rated
+2026-11-18,lillada01,Damian Lillard,90.8,89.9,0.9,Stars,Fairly rated
+2026-11-18,willizi01,Zion Williamson,91.4,90.5,0.9,Stars,Fairly rated
+2026-11-18,colliis01,Isaiah Collier,14.4,13.8,0.6,Under the radar,Fairly rated
+2026-11-18,antetgi01,Giannis Antetokounmpo,97.7,97.1,0.6,Stars,Fairly rated
+2026-11-18,camarto01,Toumani Camara,50.0,49.4,0.6,Hidden gems,Fairly rated
+2026-11-18,diengou01,Ousmane Dieng,7.5,7.2,0.3,Under the radar,Fairly rated
+2026-11-18,smithja05,Jabari Smith Jr.,57.5,57.2,0.3,Stars,Fairly rated
+2026-11-18,conwery01,Ryan Conwell,14.9,14.9,0.0,Under the radar,Fairly rated
+2026-11-18,jonessp01,Spencer Jones,16.1,16.1,0.0,Under the radar,Fairly rated
+2026-11-18,millele01,Leonard Miller,13.2,13.5,-0.3,Under the radar,Fairly rated
+2026-11-18,kesslwa01,Walker Kessler,90.5,90.8,-0.3,Stars,Fairly rated
+2026-11-18,jamessi01,Sion James,17.0,17.5,-0.5,Under the radar,Fairly rated
+2026-11-18,irvinky01,Kyrie Irving,96.3,96.8,-0.5,Stars,Fairly rated
+2026-11-18,watkija01,Jamir Watkins,9.2,9.8,-0.6,Under the radar,Fairly rated
+2026-11-18,wagnefr01,Franz Wagner,75.3,75.9,-0.6,Stars,Fairly rated
+2026-11-18,murrake02,Keegan Murray,9.5,10.3,-0.8,Under the radar,Fairly rated
+2026-11-18,monkma01,Malik Monk,25.9,26.7,-0.8,Under the radar,Fairly rated
+2026-11-18,postqu01,Quinten Post,31.9,33.0,-1.1,Under the radar,Fairly rated
+2026-11-18,brunsja01,Jalen Brunson,94.5,95.7,-1.2,Stars,Fairly rated
+2026-11-18,sandeko01,Kobe Sanders,14.7,16.4,-1.7,Under the radar,Fairly rated
+2026-11-18,horfoal01,Al Horford,46.3,48.0,-1.7,Under the radar,Fairly rated
+2026-11-18,wallaca01,Cason Wallace,73.0,75.0,-2.0,Stars,Fairly rated
+2026-11-18,wagleke01,Keaton Wagler,44.3,46.3,-2.0,Under the radar,Fairly rated
+2026-11-18,ingrabr01,Brandon Ingram,67.0,69.0,-2.0,Stars,Fairly rated
+2026-11-18,ballla01,LaMelo Ball,94.0,96.0,-2.0,Stars,Fairly rated
+2026-11-18,portemi01,Michael Porter Jr.,85.3,87.4,-2.1,Stars,Fairly rated
+2026-11-18,poweldr01,Drake Powell,0.6,2.9,-2.3,Under the radar,Fairly rated
+2026-11-18,sassema01,Marcus Sasser,9.5,11.8,-2.3,Under the radar,Fairly rated
+2026-11-18,essenno01,Noa Essengue,0.9,3.2,-2.3,Under the radar,Fairly rated
+2026-11-18,mamuksa01,Sandro Mamukelashvili,81.9,84.8,-2.9,Stars,Fairly rated
+2026-11-18,clownno01,Noah Clowney,7.8,10.9,-3.1,Under the radar,Fairly rated
+2026-11-18,edwaran01,Anthony Edwards,95.7,98.9,-3.2,Stars,Fairly rated
+2026-11-18,hardati02,Tim Hardaway Jr.,37.1,40.5,-3.4,Under the radar,Fairly rated
+2026-11-18,burribr01,Brayden Burries,27.9,31.3,-3.4,Under the radar,Fairly rated
+2026-11-18,adebaba01,Bam Adebayo,88.2,91.7,-3.5,Stars,Fairly rated
+2026-11-18,georgke01,Keyonte George,62.9,66.7,-3.8,Stars,Fairly rated
+2026-11-18,queende01,Derik Queen,45.1,48.9,-3.8,Under the radar,Fairly rated
+2026-11-18,raynama01,Maxime Raynaud,13.8,17.8,-4.0,Under the radar,Fairly rated
+2026-11-18,johnsca02,Cameron Johnson,36.2,40.2,-4.0,Under the radar,Fairly rated
+2026-11-18,banchpa01,Paolo Banchero,79.6,83.6,-4.0,Stars,Fairly rated
+2026-11-18,bookede01,Devin Booker,87.4,91.4,-4.0,Stars,Fairly rated
+2026-11-18,sheppbe01,Ben Sheppard,10.1,14.4,-4.3,Under the radar,Fairly rated
+2026-11-18,wolfda01,Danny Wolf,15.2,19.5,-4.3,Under the radar,Fairly rated
+2026-11-18,duranke01,Kevin Durant,95.1,99.4,-4.3,Stars,Fairly rated
+2026-11-18,curryst01,Stephen Curry,95.4,99.7,-4.3,Stars,Fairly rated
+2026-11-18,sarral01,Alex Sarr,55.5,60.1,-4.6,Stars,Fairly rated
+2026-11-18,spencpa01,Pat Spencer,17.5,22.4,-4.9,Under the radar,Fairly rated
+2026-11-18,vandeja01,Jarred Vanderbilt,25.0,30.2,-5.2,Under the radar,Fairly rated
+2026-11-18,greenaj01,A.J. Green,6.9,12.1,-5.2,Under the radar,Fairly rated
+2026-11-18,blackan01,Anthony Black,54.9,60.6,-5.7,Stars,Fairly rated
+2026-11-18,achiupr01,Precious Achiuwa,27.0,32.8,-5.8,Under the radar,Fairly rated
+2026-11-18,santogu01,Gui Santos,35.3,41.1,-5.8,Under the radar,Fairly rated
+2026-11-18,mccolcj01,CJ McCollum,52.0,58.0,-6.0,Stars,Fairly rated
+2026-11-18,reaveau01,Austin Reaves,87.1,93.1,-6.0,Stars,Fairly rated
+2026-11-18,rileywi01,Will Riley,2.3,8.9,-6.6,Under the radar,Fairly rated
+2026-11-18,greenjo02,Josh Green,5.7,12.4,-6.7,Under the radar,Fairly rated
+2026-11-18,hardeja01,James Harden,86.8,94.0,-7.2,Stars,Fairly rated
+2026-11-18,powelno01,Norman Powell,64.9,72.4,-7.5,Stars,Fairly rated
+2026-11-18,richaja02,Jase Richardson,8.3,15.8,-7.5,Under the radar,Fairly rated
+2026-11-18,missiyv01,Yves Missi,23.0,30.7,-7.7,Under the radar,Fairly rated
+2026-11-18,robinmi01,Mitchell Robinson,78.7,86.5,-7.8,Stars,Fairly rated
+2026-11-18,joneshe01,Herbert Jones,6.3,14.1,-7.8,Under the radar,Fairly rated
+2026-11-18,walshjo01,Jordan Walsh,42.8,50.6,-7.8,Hype,Fairly rated
+2026-11-18,randlju01,Julius Randle,69.0,77.0,-8.0,Stars,Fairly rated
+2026-11-18,jamesle01,LeBron James,91.7,100.0,-8.3,Stars,Fairly rated
+2026-11-18,giddejo01,Josh Giddey,70.4,78.7,-8.3,Stars,Fairly rated
+2026-11-18,sheadja01,Jamal Shead,19.3,27.9,-8.6,Under the radar,Fairly rated
+2026-11-18,brownja02,Jaylen Brown,87.9,96.6,-8.7,Stars,Fairly rated
+2026-11-18,loveca01,Caleb Love,10.3,19.0,-8.7,Under the radar,Fairly rated
+2026-11-18,thomame01,Meleek Thomas,43.4,52.6,-9.2,Hype,Fairly rated
+2026-11-18,siakapa01,Pascal Siakam,69.8,79.0,-9.2,Stars,Fairly rated
+2026-11-18,champju01,Justin Champagnie,43.1,52.3,-9.2,Hype,Fairly rated
+2026-11-18,okorois01,Isaac Okoro,5.5,14.7,-9.2,Under the radar,Fairly rated
+2026-11-18,sharpem01,Emanuel Sharp,3.7,13.2,-9.5,Under the radar,Fairly rated
+2026-11-18,davisan02,Anthony Davis,88.5,98.3,-9.8,Stars,Fairly rated
+2026-11-18,gonzahu01,Hugo González,25.3,35.6,-10.3,Under the radar,Fairly rated
+2026-11-18,flaggco01,Cooper Flagg,85.6,96.3,-10.7,Stars,Fairly rated
+2026-11-18,wiggian01,Andrew Wiggins,60.1,71.0,-10.9,Stars,Fairly rated
+2026-11-18,traorno01,Nolan Traoré,17.2,28.2,-11.0,Under the radar,Fairly rated
+2026-11-18,robindu01,Duncan Robinson,72.7,84.5,-11.8,Stars,Fairly rated
+2026-11-18,chrisma02,Max Christie,24.7,36.8,-12.1,Under the radar,Fairly rated
+2026-11-18,harpedy01,Dylan Harper,77.0,89.4,-12.4,Stars,Fairly rated
+2026-11-18,walkeja02,Jarace Walker,11.8,25.9,-14.1,Under the radar,Fairly rated
+2026-11-18,nembhan01,Andrew Nembhard,40.8,55.2,-14.4,Hype,Fairly rated
+2026-11-18,anunoog01,OG Anunoby,70.7,85.1,-14.4,Stars,Fairly rated
+2026-11-18,edeyza01,Zach Edey,30.5,45.4,-14.9,Under the radar,Fairly rated
+2026-11-18,wellsja01,Jaylen Wells,22.4,37.6,-15.2,Under the radar,Fairly rated
+2026-11-18,mcdanja02,Jaden McDaniels,65.2,80.5,-15.3,Stars,Fairly rated
+2026-11-18,mathube01,Bennedict Mathurin,10.9,26.4,-15.5,Under the radar,Fairly rated
+2026-11-18,collijo01,John Collins,37.6,53.2,-15.6,Hype,Fairly rated
+2026-11-18,maraad01,Aday Mara,48.0,63.8,-15.8,Hype,Fairly rated
+2026-11-18,peterda02,Darryn Peterson,57.2,73.6,-16.4,Stars,Fairly rated
+2026-11-18,carrica01,Bub Carrington,4.0,20.7,-16.7,Under the radar,Fairly rated
+2026-11-18,coulibi01,Bilal Coulibaly,18.4,35.3,-16.9,Under the radar,Fairly rated
+2026-11-18,wiggiaa01,Aaron Wiggins,37.9,54.9,-17.0,Hype,Fairly rated
+2026-11-18,georgpa01,Paul George,77.3,94.5,-17.2,Stars,Fairly rated
+2026-11-18,hezonma01,Mario Hezonja,42.2,59.5,-17.3,Hype,Fairly rated
+2026-11-18,barrerj01,RJ Barrett,57.8,75.3,-17.5,Stars,Fairly rated
+2026-11-18,smithja04,Jalen Smith,47.4,65.2,-17.8,Hype,Fairly rated
+2026-11-18,richawi02,Will Richard,23.6,41.4,-17.8,Under the radar,Fairly rated
+2026-11-18,stewais01,Isaiah Stewart,50.6,68.7,-18.1,Stars,Fairly rated
+2026-11-18,gordoaa01,Aaron Gordon,52.6,70.7,-18.1,Stars,Fairly rated
+2026-11-18,nembhry01,Ryan Nembhard,5.2,23.6,-18.4,Under the radar,Fairly rated
+2026-11-18,cartewe01,Wendell Carter Jr.,44.8,63.2,-18.4,Hype,Fairly rated
+2026-11-18,cissosi01,Sidy Cissoko,19.8,38.2,-18.4,Under the radar,Fairly rated
+2026-11-18,larsspe01,Pelle Larsson,34.5,52.9,-18.4,Hype,Fairly rated
+2026-11-18,laravja01,Jake LaRavia,35.9,54.6,-18.7,Hype,Fairly rated
+2026-11-18,embiijo01,Joel Embiid,75.0,93.7,-18.7,Stars,Fairly rated
+2026-11-18,portibo01,Bobby Portis,44.0,62.9,-18.9,Hype,Fairly rated
+2026-11-18,willipa01,Patrick Williams,2.6,21.6,-19.0,Under the radar,Fairly rated
+2026-11-18,lendeya01,Yaxel Lendeborg,78.2,97.4,-19.2,Stars,Fairly rated
+2026-11-18,herroty01,Tyler Herro,66.7,86.2,-19.5,Stars,Fairly rated
+2026-11-18,johnstr03,Tre Johnson,1.7,21.3,-19.6,Under the radar,Fairly rated
+2026-11-18,millebr02,Brandon Miller,62.4,82.2,-19.8,Stars,Fairly rated
+2026-11-18,zubaciv01,Ivica Zubac,41.1,61.2,-20.1,Hype,Fairly rated
+2026-11-18,podzibr01,Brandin Podziemski,66.1,87.1,-21.0,Stars,Fairly rated
+2026-11-18,willibr03,Brandon Williams,55.2,76.7,-21.5,Stars,Fairly rated
+2026-11-18,aytonde01,Deandre Ayton,36.8,58.3,-21.5,Hype,Fairly rated
+2026-11-18,boozeca02,Cameron Boozer,67.2,89.1,-21.9,Stars,Fairly rated
+2026-11-18,demineg01,Egor Dëmin,20.7,43.1,-22.4,Under the radar,Fairly rated
+2026-11-18,amentna01,Nate Ament,12.1,34.8,-22.7,Under the radar,Fairly rated
+2026-11-18,brazitr01,Trevon Brazile,30.5,54.0,-23.5,Hype,Fairly rated
+2026-11-18,whiteco01,Coby White,28.4,52.0,-23.6,Hype,Fairly rated
+2026-11-18,dickgr01,Gradey Dick,11.2,35.1,-23.9,Under the radar,Fairly rated
+2026-11-18,alvarjo01,Jose Alvarado,32.2,56.6,-24.4,Hype,Fairly rated
+2026-11-18,huntede01,De'Andre Hunter,7.2,31.6,-24.4,Under the radar,Fairly rated
+2026-11-18,wadede01,Dean Wade,53.4,77.9,-24.5,Stars,Fairly rated
+2026-11-18,shamela01,Landry Shamet,42.5,67.8,-25.3,Hype,Overrated
+2026-11-18,goberru01,Rudy Gobert,63.2,88.8,-25.6,Stars,Overrated
+2026-11-18,trentga02,Gary Trent Jr.,1.1,26.7,-25.6,Under the radar,Overrated
+2026-11-18,flemiki01,Kingston Flemings,14.1,39.9,-25.8,Under the radar,Overrated
+2026-11-18,reidna01,Naz Reid,56.9,83.0,-26.1,Stars,Overrated
+2026-11-18,mitchda01,Davion Mitchell,54.6,81.0,-26.4,Stars,Overrated
+2026-11-18,poolejo01,Jordan Poole,17.8,44.3,-26.5,Under the radar,Overrated
+2026-11-18,jacksja02,Jaren Jackson Jr.,39.7,66.4,-26.7,Hype,Overrated
+2026-11-18,lopezbr01,Brook Lopez,46.0,73.9,-27.9,Hype,Overrated
+2026-11-18,garlada01,Darius Garland,37.4,65.8,-28.4,Hype,Overrated
+2026-11-18,georgky01,Kyshawn George,38.2,67.0,-28.8,Hype,Overrated
+2026-11-18,willico04,Cody Williams,0.3,31.0,-30.7,Under the radar,Overrated
+2026-11-18,meltode01,De'Anthony Melton,26.1,56.9,-30.8,Hype,Overrated
+2026-11-18,middlkh01,Khris Middleton,3.2,34.5,-31.3,Under the radar,Overrated
+2026-11-18,turnemy01,Myles Turner,30.2,62.1,-31.9,Hype,Overrated
+2026-11-18,derozde01,DeMar DeRozan,45.4,77.3,-31.9,Hype,Overrated
+2026-11-18,washipj01,P.J. Washington,23.3,55.5,-32.2,Hype,Overrated
+2026-11-18,dortlu01,Luguentz Dort,18.7,51.7,-33.0,Hype,Overrated
+2026-11-18,nesmiaa01,Aaron Nesmith,8.0,41.7,-33.7,Under the radar,Overrated
+2026-11-18,baileac01,Ace Bailey,15.8,49.7,-33.9,Under the radar,Overrated
+2026-11-18,sextoco01,Collin Sexton,50.9,85.6,-34.7,Stars,Overrated
+2026-11-18,simonan01,Anfernee Simons,42.0,79.6,-37.6,Hype,Overrated
+2026-11-18,edgecvj01,VJ Edgecombe,53.7,92.0,-38.3,Stars,Overrated
+2026-11-18,oubreke01,Kelly Oubre Jr.,25.6,64.1,-38.5,Hype,Overrated
+2026-11-18,buzelma01,Matas Buzelis,31.0,69.8,-38.8,Hype,Overrated
+2026-11-18,hendesc01,Scoot Henderson,0.0,39.4,-39.4,Under the radar,Overrated
+2026-11-18,lavinza01,Zach LaVine,38.8,78.4,-39.6,Hype,Overrated
+2026-11-18,johnsmo01,Morez Johnson Jr.,6.0,46.0,-40.0,Under the radar,Overrated
+2026-11-18,brownmi02,Mikel Brown Jr.,4.6,47.1,-42.5,Under the radar,Overrated
+2026-11-18,drumman01,Andre Drummond,39.4,82.5,-43.1,Hype,Overrated
+2026-11-18,niangge01,Georges Niang,16.7,60.3,-43.6,Hype,Overrated
+2026-11-18,watsope01,Peyton Watson,24.4,69.3,-44.9,Hype,Overrated
+2026-11-18,grimequ01,Quentin Grimes,35.6,81.6,-46.0,Hype,Overrated
+2026-11-18,caldwke01,Kentavious Caldwell-Pope,21.0,68.4,-47.4,Hype,Overrated
+2026-11-18,willizi02,Ziaire Williams,35.1,83.9,-48.8,Hype,Overrated
+2026-11-18,claytwa01,Walter Clayton,12.6,62.6,-50.0,Hype,Overrated
+2026-11-18,clarkjo01,Jordan Clarkson,8.6,58.9,-50.3,Hype,Overrated
+2026-11-18,bonaad01,Adem Bona,11.5,62.4,-50.9,Hype,Overrated
+2026-11-18,greenja05,Jalen Green,4.9,56.0,-51.1,Hype,Overrated
+2026-11-18,risacza01,Zaccharie Risacher,22.1,74.1,-52.0,Hype,Overrated
+2026-11-18,kuzmaky01,Kyle Kuzma,19.5,72.1,-52.6,Hype,Overrated
+2026-11-18,youngtr01,Trae Young,29.6,82.8,-53.2,Hype,Overrated
+2026-11-18,mccaija01,Jared McCain,19.0,73.0,-54.0,Hype,Overrated
+2026-11-18,brookdi01,Dillon Brooks,12.9,70.1,-57.2,Hype,Overrated
+2026-11-18,murrade01,Dejounte Murray,27.9,85.3,-57.4,Hype,Overrated
+2026-11-18,thompkl01,Klay Thompson,39.1,99.1,-60.0,Hype,Overrated
+2026-11-18,wilsoca01,Caleb Wilson,29.3,89.7,-60.4,Hype,Overrated
+2026-11-18,schrode01,Dennis Schröder,13.5,74.1,-60.6,Hype,Overrated
+2026-11-18,greendr01,Draymond Green,36.5,98.6,-62.1,Hype,Overrated
+2026-11-18,cliffni01,Nique Clifford,1.4,63.5,-62.1,Hype,Overrated
+2026-11-18,smartma01,Marcus Smart,21.6,84.2,-62.6,Hype,Overrated
+2026-11-18,dybanaj01,AJ Dybantsa,2.9,65.5,-62.6,Hype,Overrated
+2026-11-18,fearsje01,Jeremiah Fears,12.4,76.1,-63.7,Hype,Overrated
+2026-11-18,hachiru01,Rui Hachimura,15.5,80.2,-64.7,Hype,Overrated
+2026-11-18,acuffda01,Darius Acuff Jr.,17.8,92.5,-74.7,Hype,Overrated
