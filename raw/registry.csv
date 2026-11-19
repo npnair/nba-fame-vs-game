@@ -1,10 +1,10 @@
 bref_id,wikidata_id,wikipedia_title,instagram_handle,tiktok_handle,media_credits
 duranke01,Q29545,Kevin_Durant,easymoneysniper,,1
 davisan02,Q317008,Anthony_Davis,antdavis23,,4
-curryst01,Q352159,Stephen_Curry,stephencurry30,stephencurry30,1
 irvinky01,Q348618,Kyrie_Irving,kyrieirving,,1
 greendr01,Q2614593,Draymond_Green,money23green,,1
 edwaran01,Q60951627,Anthony_Edwards_(basketball),theanthonyedwards_,,1
+curryst01,Q352159,Stephen_Curry,stephencurry30,stephencurry30,1
 hardeja01,Q136678,James_Harden,jharden13,,0
 barneha02,Q222851,Harrison_Barnes,hbarnes,,0
 bogdabo01,Q245990,Bogdan_Bogdanović_(basketball),bogdanbogdanovic,,0
@@ -45,6 +45,7 @@ brookdi01,Q23302754,Dillon_Brooks,dillonbrooks24,,0
 bridgmi01,Q23800231,Mikal_Bridges,mikalbridges,,0
 carusal01,Q27662581,Alex_Caruso,acfresh21,,0
 bridgmi02,Q27925506,Miles_Bridges,milesbridges,,0
+bitadgo01,Q27926032,Goga_Bitadze,,,0
 anunoog01,Q28054144,OG_Anunoby,,,0
 ballla01,Q28741203,LaMelo_Ball,melo,,0
 cartewe01,Q28925029,Wendell_Carter_Jr.,wendellcarterjr,wendellcarterjr,0
@@ -115,7 +116,6 @@ dickgr01,Q112277896,Gradey_Dick,gradey,,0
 barlodo01,Q112625459,Dominick_Barlow,,,0
 gonzahu01,Q114453793,Hugo_González_(basketball),,,0
 flaggco01,Q115492038,Cooper_Flagg,cooper_flagg,Cooperflagg,0
-jacksgg01,Q115492105,GG_Jackson,,,0
 blackan01,Q115807227,Anthony_Black_(basketball),,,0
 hendrta01,Q116186160,Taylor_Hendricks,,,0
 buzelma01,Q116407129,Matas_Buzelis,,,0
@@ -212,7 +212,6 @@ merrisa01,Q62719191,Sam_Merrill,,,0
 mannte01,Q62764548,Terance_Mann,,,0
 maxeyty01,Q62860683,Tyrese_Maxey,tyresemaxey,,0
 mobleev01,Q64009534,Evan_Mobley,,,0
-strusma01,Q65952023,Max_Strus,maxstrus,,0
 sengual01,Q66133404,Alperen_Şengün,,,0
 johnsja05,Q66187310,Jalen_Johnson,,,0
 okorois01,Q66309754,Isaac_Okoro,isaacokoro,,0
@@ -271,6 +270,7 @@ rolliry01,Q112581331,Ryan_Rollins,_moneyballry,,0
 millele01,Q112724651,Leonard_Miller_(basketball),leonard.m11,,0
 proctty01,Q112913786,Tyrese_Proctor,,,0
 ruperra01,Q114426424,Rayan_Rupert,,,0
+jacksgg01,Q115492105,GG_Jackson,,,0
 murrakr01,Q115581689,Kris_Murray,,,0
 millebr02,Q115810482,"Brandon_Miller_(basketball,_born_2002)",,,0
 sensabr01,Q116258755,Brice_Sensabaugh,babysensa,,0
@@ -321,6 +321,7 @@ wagnefr01,Q53394086,Franz_Wagner,franz_weasley,,0
 willike04,Q53871110,Kenrich_Williams,kenrich_williams,,0
 whiteco01,Q58494697,Coby_White,,,0
 willizi02,Q65929905,Ziaire_Williams,,,0
+strusma01,Q65952023,Max_Strus,maxstrus,,0
 wembavi01,Q72941595,Victor_Wembanyama,wemby,wemby,0
 toppiob01,Q75060241,Obi_Toppin,obitoppin_1,,0
 vassede01,Q82831692,Devin_Vassell,devin_vassell,,0
@@ -331,6 +332,7 @@ wiggiaa01,Q98686661,Aaron_Wiggins,,,0
 willibr03,Q100987066,"Brandon_Williams_(basketball,_born_1999)",,,0
 watsope01,Q106641631,Peyton_Watson,,,0
 watkija01,Q106818127,Jamir_Watkins,,,0
+walkeja01,Q106818889,Jabari_Walker,,,0
 willija07,Q112687854,"Jaylin_Williams_(basketball,_born_2002)",thejaylinwilliams_,,0
 thompam01,Q114413486,Amen_Thompson,,,0
 wallaca01,Q114414145,Cason_Wallace,,,0
