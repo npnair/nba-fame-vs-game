@@ -1,9 +1,9 @@
 bref_id,wikidata_id,wikipedia_title,instagram_handle,tiktok_handle,media_credits
 duranke01,Q29545,Kevin_Durant,easymoneysniper,,1
 davisan02,Q317008,Anthony_Davis,antdavis23,,4
-curryst01,Q352159,Stephen_Curry,stephencurry30,stephencurry30,1
 greendr01,Q2614593,Draymond_Green,money23green,,1
 edwaran01,Q60951627,Anthony_Edwards_(basketball),theanthonyedwards_,,1
+curryst01,Q352159,Stephen_Curry,stephencurry30,stephencurry30,1
 hardeja01,Q136678,James_Harden,jharden13,,0
 barneha02,Q222851,Harrison_Barnes,hbarnes,,0
 bogdabo01,Q245990,Bogdan_Bogdanović_(basketball),bogdanbogdanovic,,0
@@ -159,7 +159,6 @@ middlkh01,Q558663,Khris_Middleton,k_mid22,,0
 leonaka01,Q926248,Kawhi_Leonard,,,0
 mccolcj01,Q5006560,CJ_McCollum,,,0
 sabondo01,Q5289916,Domantas_Sabonis,dsabonis11,,0
-smartma01,Q6758454,Marcus_Smart,youngamechanger,,0
 schrode01,Q10862660,Dennis_Schröder,ds17_fg,ds17trickshots,0
 mykhasv01,Q14901752,Sviatoslav_Mykhailiuk,sviat_10,,0
 randlju01,Q15623860,Julius_Randle,juliusownedbytraeyoungrandle30,,0
@@ -254,6 +253,7 @@ kesslwa01,Q106486426,Walker_Kessler,,,0
 jacksis01,Q106782830,Isaiah_Jackson_(basketball),,,0
 peavymi01,Q106817833,Micah_Peavy,,,0
 jamessi01,Q106818165,Sion_James,,,0
+prospol01,Q106818169,Olivier-Maxence_Prosper,omaxprosper,,0
 murrake02,Q106818294,Keegan_Murray,,,0
 martial01,Q106818320,Alijah_Martin,,,0
 sheadja01,Q106818507,Jamal_Shead,,,0
@@ -304,6 +304,7 @@ thompkl01,Q29342,Klay_Thompson,klaythompson,,3
 vucevni01,Q659886,Nikola_Vučević,,,0
 wiggian01,Q4758911,Andrew_Wiggins,22wiggins,,0
 townska01,Q6372315,Karl-Anthony_Towns,karltowns,,0
+smartma01,Q6758454,Marcus_Smart,youngamechanger,,0
 vanvlfr01,Q16236628,Fred_VanVleet,fredvanvleet,,0
 turnemy01,Q17403499,Myles_Turner,turner_myles,,0
 tatumja01,Q21623063,Jayson_Tatum,jaytatum0,,0
